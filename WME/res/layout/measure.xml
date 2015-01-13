@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.fihtdc.smartbracelet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/health_measure_bg_01" >
+    
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wave_above"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginRight="80dp"
+        android:src="@drawable/health_measure_star_ic" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/wave_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/health_measure_wavesbottom_ic" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/fish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/wave_above"
+        android:layout_marginRight="@dimen/fish_margin_right"
+        android:layout_marginTop="@dimen/fish_offset_y"
+        android:src="@drawable/health_measure_fish_ic" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/wave_above"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/health_measure_wavesabove_ic">
+    </ImageView>
+
+    <com.fihtdc.smartbracelet.view.HeartRateView
+        android:id="@+id/heartRateVieww"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heatrate_height"
+        android:layout_above="@+id/result_panel"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        app:QPointColor="#FFFFFFFF"/>
+
+    <RelativeLayout
+        android:id="@+id/result_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/measure_status"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="5dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/health_measure_time_ic"
+                android:drawablePadding="5dp"
+                android:text="@string/time_label"
+                android:textColor="@color/measure_label_color"
+                android:textSize="@dimen/measure_label_text_size" />
+
+            <TextView
+                android:id="@+id/time_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:textColor="@color/measure_label_color"
+                android:textSize="@dimen/measure_number_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/health_measure_bpm_ic"
+                android:drawablePadding="5dp"
+                android:text="@string/bpm_label"
+                android:textColor="@color/measure_label_color"
+                android:textSize="@dimen/measure_label_text_size" />
+
+            <TextView
+                android:id="@+id/bpm_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:textColor="@color/measure_label_color"
+                android:textSize="@dimen/measure_number_text_size" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/status"
+        android:id="@+id/measure_status"/>"
+    
+    <include layout="@layout/measure_prepare_wave"/>
+    
+    <include layout="@layout/measure_prepare"/>
+
+</RelativeLayout>

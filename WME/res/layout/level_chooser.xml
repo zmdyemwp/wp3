@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/health_main_bg_02"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" " />
+
+    <ImageView
+        android:id="@+id/remind"
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+        android:src="@drawable/ic_help" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:splitMotionEvents="false" >
+
+        <LinearLayout
+            android:id="@+id/level1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/item_padding_value"
+            android:orientation="horizontal"
+            android:splitMotionEvents="false" >
+
+            <com.fihtdc.smartbracelet.view.LevelLinearLayout
+                android:id="@+id/level1_imgview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp" />
+
+            <com.fihtdc.smartbracelet.view.LevelLinearLayout
+                android:id="@+id/level2_imgview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/levelLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/item_padding_value"
+            android:layout_marginTop="@dimen/item_padding_value"
+            android:orientation="horizontal"
+            android:splitMotionEvents="false" >
+
+            <com.fihtdc.smartbracelet.view.LevelLinearLayout
+                android:id="@+id/level3_imgview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp" />
+
+            <com.fihtdc.smartbracelet.view.LevelLinearLayout
+                android:id="@+id/level4_imgview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/levelLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/item_padding_value"
+            android:orientation="horizontal"
+            android:splitMotionEvents="false" >
+
+            <com.fihtdc.smartbracelet.view.LevelLinearLayout
+                android:id="@+id/level5_imgview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp" />
+
+            <com.fihtdc.smartbracelet.view.LevelLinearLayout
+                android:id="@+id/levelm_imgview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

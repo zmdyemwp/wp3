@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.fihtdc.smartbracelet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/detail_layout">
+    
+    <com.fihtdc.smartbracelet.view.ViewFlow
+        android:id="@+id/viewflow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sidebuffer="3" />
+
+    <com.fihtdc.smartbracelet.view.CircleFlowIndicator
+        android:id="@+id/viewflowindic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="20dip"
+        app:spacing="12dp"
+        app:radius="4dp"
+        app:inactiveColor="#FFFFFFFF"
+        app:activeColor="#FF3D3E3D"
+        app:inactiveType="fill"/>
+
+</FrameLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ <string name="camera_error_title" >"Error de cámara"</string>
+ <string name="cannot_connect_camera" >"No se puede establecer conexión con la cámara."</string>
+ <string name="camera_disabled" >"La cámara ha sido desactivada por políticas de seguridad."</string>
+ <string name="camera_label" >"Cámara"</string>
+ <string name="video_camera_label" >"Cámara de video"</string>
+ <string name="gallery_camera_bucket_name" >"Imágenes de la cámara"</string>
+ <string name="gallery_camera_videos_bucket_name" >"Videos de la cámara"</string>
+ <string name="wait" >"Espera, por favor..."</string>
+ <string name="no_storage" product="nosdcard" >"Activa el almacenamiento USB antes de usar la cámara."</string>
+ <string name="no_storage" product="default" >"Inserta una tarjeta SD antes de usar la cámara."</string>
+ <string name="not_enough_space" product="nosdcard" >"El espacio de almacenamiento USB está lleno."</string>
+ <string name="not_enough_space" product="default" >"Tu tarjeta SD está llena."</string>
+ <string name="preparing_sd" product="nosdcard" >"Preparando almacenamiento USB..."</string>
+ <string name="preparing_sd" product="default" >"Preparando la tarjeta SD..."</string>
+ <string name="access_sd_fail" product="nosdcard" >"No se pudo acceder al almacenamiento USB."</string>
+ <string name="access_sd_fail" product="default" >"No se pudo acceder a la tarjeta SD."</string>
+ <string name="confirm_restore_title" >"Restaurar configuraciones predeterminadas"</string>
+ <string name="confirm_restore_message" >"¿Deseas restablecer la configuración predeterminada de Cámara?"</string>
+ <string name="review_play" >"Reproducir"</string>
+ <string name="review_cancel" >"CANCELAR"</string>
+ <string name="review_ok" >"LISTO"</string>
+ <string name="review_retake" >"VOLVER A TOMAR"</string>
+ <string name="camera_gallery_photos_text" >"Galería"</string>
+ <string name="switch_camera_id" >"Cambiar cámara"</string>
+ <string name="time_lapse_title" >"Grabación a intervalos de tiempo"</string>
+ <string name="pref_camera_id_title" >"Seleccionar cámara"</string>
+ <string name="pref_camera_id_entry_back" >"Parte trasera"</string>
+ <string name="pref_camera_id_entry_front" >"Parte delantera"</string>
+ <string name="pref_camera_recordlocation_title" >"Almacenar ubicación"</string>
+ <string name="pref_camera_recordlocation_entry_off" >"Apagado"</string>
+ <string name="pref_camera_recordlocation_entry_on" >"Encendido"</string>
+ <string name="pref_video_quality_title" >"Calidad del video"</string>
+ <string name="pref_video_time_lapse_frame_interval_title" >"Intervalo de tiempo"</string>
+ <string name="pref_camera_settings_category" >"Configuración de cámara"</string>
+ <string name="pref_camcorder_settings_category" >"Configuración de videocámara"</string>
+ <string name="pref_camera_picturesize_title" >"Tamaño de imagen"</string>
+ <string name="pref_camera_picturesize_entry_3200x2400" >8M pixeles</string>
+ <string name="pref_camera_picturesize_entry_2592x1936" >"5M pixeles"</string>
+ <string name="pref_camera_picturesize_entry_2048x1536" >"3M pixeles"</string>
+ <string name="pref_camera_picturesize_entry_1600x1200" >"2M pixeles"</string>
+ <string name="pref_camera_picturesize_entry_1280x960" >"1,3M pixeles"</string>
+ <string name="pref_camera_picturesize_entry_1024x768" >"1M pixeles"</string>
+ <string name="pref_camera_picturesize_entry_640x480" >"VGA"</string>
+ <string name="pref_camera_picturesize_entry_320x240" >"QVGA"</string>
+ <string name="pref_camera_focusmode_title" >"Modo de enfoque"</string>
+ <string name="pref_camera_focusmode_entry_auto" >"Automáticamente"</string>
+ <string name="pref_camera_focusmode_entry_infinity" >"Infinito"</string>
+ <string name="pref_camera_focusmode_entry_macro" >"Macro"</string>
+ <string name="pref_camera_flashmode_title" >"Modo de flash"</string>
+ <string name="pref_camera_flashmode_entry_auto" >"Automáticamente"</string>
+ <string name="pref_camera_flashmode_entry_on" >"Encendido"</string>
+ <string name="pref_camera_flashmode_entry_off" >"Apagado"</string>
+ <string name="pref_camera_whitebalance_title" >"Equilibrio de blancos"</string>
+ <string name="pref_camera_whitebalance_entry_auto" >"Automático"</string>
+ <string name="pref_camera_whitebalance_entry_incandescent" >"Incandescente"</string>
+ <string name="pref_camera_whitebalance_entry_daylight" >"Luz del día"</string>
+ <string name="pref_camera_whitebalance_entry_fluorescent" >"Fluorescente"</string>
+ <string name="pref_camera_whitebalance_entry_cloudy" >"Nublado"</string>
+ <string name="pref_camera_scenemode_title" >"Modo de preselección de escenas"</string>
+ <string name="pref_camera_scenemode_entry_auto" >"Automáticamente"</string>
+ <string name="pref_camera_scenemode_entry_action" >"Acción"</string>
+ <string name="pref_camera_scenemode_entry_night" >"Noche"</string>
+ <string name="pref_camera_scenemode_entry_sunset" >"Crepúsculo"</string>
+ <string name="pref_camera_scenemode_entry_party" >"Fiesta"</string>
+ <string name="pref_camera_scenemode_entry_portrait" >Retrato</string>
+ <string name="pref_camera_scenemode_entry_landscape" >Paisaje</string>
+ <string name="pref_camera_scenemode_entry_night_portrait" >Retrato nocturno</string>
+ <string name="pref_camera_scenemode_entry_steadyphoto" >Foto fija</string>
+ <string name="pref_camera_scenemode_entry_macro" >Macro</string>
+ <string name="not_selectable_in_scene_mode" >"No se puede seleccionar en el modo Escena."</string>
+ <string name="pref_restore_title" >"Configuración de cámara"</string>
+ <string name="pref_restore_detail" >"Restaurar configuraciones predeterminadas"</string>
+ <string name="pref_exposure_title" >"Exposición"</string>
+ <string name="dialog_ok" >"Aceptar"</string>
+ <string name="spaceIsLow_content" product="nosdcard" >"El almacenamiento USB se está quedando sin espacio. Cambia la configuración de calidad o elimina algunas imágenes u otros archivos."</string>
+ <string name="spaceIsLow_content" product="default" >"Tu tarjeta SD se está quedando sin espacio. Cambia la configuración de calidad o elimina algunas imágenes u otros archivos."</string>
+ <string name="video_reach_size_limit" >"Se alcanzó el límite del tamaño."</string>
+ <string name="switch_to_camera_label" >"Cambiar a cámara"</string>
+ <string name="switch_to_video_label" >"Cambiar a video"</string>
+ <string name="switch_to_panorama_label" >"Cambiar a modo panorámico"</string>
+ <string name="share_picture_via" >"Compartir imagen por"</string>
+ <string name="share_video_via" >"Compartir video por"</string>
+ <string name="no_picture_to_share" >"Ninguna imagen para compartir"</string>
+ <string name="no_video_to_share" >"Ningún video para compartir"</string>
+ <string name="pano_too_fast_prompt" >"Muy rápido"</string>
+ <string name="pano_dialog_prepare_preview" >"Preparando el panorama"</string>
+ <string name="pano_dialog_panorama_failed" >"No se pudo guardar la im. panorámica."</string>
+ <string name="pano_dialog_title" >"Panorama"</string>
+ <string name="pano_capture_indication" >"Capturando el panorama"</string>
+ <string name="pano_review_saving_indication_str" >"Guardando..."</string>
+ <string name="tap_to_focus" >"Toca para enfocar."</string>
+ <string name="pref_video_effect_title" >"Efectos"</string>
+ <string name="effect_none" >"Ninguno"</string>
+ <string name="effect_goofy_face_squeeze" >"Comprimir"</string>
+ <string name="effect_goofy_face_big_eyes" >"Ojos grandes"</string>
+ <string name="effect_goofy_face_big_mouth" >"Boca grande"</string>
+ <string name="effect_goofy_face_small_mouth" >"Boca pequeña"</string>
+ <string name="effect_goofy_face_big_nose" >"Nariz grande"</string>
+ <string name="effect_goofy_face_small_eyes" >"Ojos pequeños"</string>
+ <string name="effect_backdropper_space" >"En el espacio"</string>
+ <string name="effect_backdropper_sunset" >"Crepúsculo"</string>
+ <string name="effect_backdropper_disco" >"Disco"</string>
+ <string name="effect_backdropper_gallery" >"Elige tu fondo"</string>
+ <string name="bg_replacement_message" >"Desactiva el dispositivo."\n"Deja de usarlo durante unos minutos."</string>
+ <string name="not_selectable_in_effect" >"No se puede seleccionar si se activó el efecto."</string>
+ <string name="video_snapshot_hint" >"Toca la pant. de vista prev. mientras grabas para tomar una foto."</string>
+ <string name="disable_video_snapshot_hint" >"Las instantáneas de video se inhabilitan al activar los efectos."</string>
+ <string name="clear_effects" >"Borrar efectos"</string>
+ <string name="effect_silly_faces" >"CARAS GRACIOSAS"</string>
+ <string name="effect_background" >"FONDO"</string>
+ <string name="accessibility_shutter_button" >"Botón del obturador"</string>
+ <string name="accessibility_review_thumbnail" >"Foto más reciente"</string>
+ <string name="accessibility_camera_picker" >"Selector de cámara delantera y trasera"</string>
+ <string name="accessibility_mode_picker" >"Selector de cámara, video o panorama"</string>
+ <string name="accessibility_second_level_indicators" >"Más controles de configuración"</string>
+ <string name="accessibility_back_to_first_level" >"Cerrar controles de configuración"</string>
+ <string name="accessibility_zoom_control" >"Control de zoom"</string>
+ <string name="accessibility_decrement" >"Disminución de %1$s"</string>
+ <string name="accessibility_increment" >"Aumentar %1$s"</string>
+ <string name="accessibility_switch" >"Interruptor %1$s"</string>
+ <string name="fih_pref_camera_grid_title" >Celda</string>
+ <string name="fih_pref_camera_grid_entry_off" >Apagado</string>
+ <string name="fih_pref_camera_grid_entry_on" >Encendido</string>
+ <string name="fih_pref_camera_shutter_sound_title" >Sonido de obturador</string>
+ <string name="fih_pref_camera_shutter_sound_entry_off" >Apagado</string>
+ <string name="fih_pref_camera_shutter_sound_entry_on" >Encendido</string>
+ <string name="pref_camera_sharpness_title" >Nitidez</string>
+ <string name="pref_camera_sharpness_entry_level0" >Nivel 0</string>
+ <string name="pref_camera_sharpness_entry_level1" >Nivel 1</string>
+ <string name="pref_camera_sharpness_entry_level2" >Nivel 2</string>
+ <string name="pref_camera_sharpness_entry_level3" >Nivel 3</string>
+ <string name="pref_camera_sharpness_entry_level4" >Nivel 4</string>
+ <string name="pref_camera_sharpness_entry_level5" >Nivel 5</string>
+ <string name="pref_camera_sharpness_entry_level6" >Nivel 6</string>
+ <string name="pref_camera_contrast_title" >Contraste</string>
+ <string name="pref_camera_contrast_entry_level0" >Nivel 0</string>
+ <string name="pref_camera_contrast_entry_level1" >Nivel 1</string>
+ <string name="pref_camera_contrast_entry_level2" >Nivel 2</string>
+ <string name="pref_camera_contrast_entry_level3" >Nivel 3</string>
+ <string name="pref_camera_contrast_entry_level4" >Nivel 4</string>
+ <string name="pref_camera_contrast_entry_level5" >Nivel 5</string>
+ <string name="pref_camera_contrast_entry_level6" >Nivel 6</string>
+ <string name="pref_camera_contrast_entry_level7" >Nivel 7</string>
+ <string name="pref_camera_contrast_entry_level8" >Nivel 8</string>
+ <string name="pref_camera_contrast_entry_level9" >Nivel 9</string>
+ <string name="pref_camera_contrast_entry_level10" >Nivel 10</string>
+ <string name="pref_camera_saturation_title" >Saturación</string>
+ <string name="pref_camera_saturation_entry_level0" >Nivel 0</string>
+ <string name="pref_camera_saturation_entry_level1" >Nivel 1</string>
+ <string name="pref_camera_saturation_entry_level2" >Nivel 2</string>
+ <string name="pref_camera_saturation_entry_level3" >Nivel 3</string>
+ <string name="pref_camera_saturation_entry_level4" >Nivel 4</string>
+ <string name="pref_camera_saturation_entry_level5" >Nivel 5</string>
+ <string name="pref_camera_saturation_entry_level6" >Nivel 6</string>
+ <string name="pref_camera_saturation_entry_level7" >Nivel 7</string>
+ <string name="pref_camera_saturation_entry_level8" >Nivel 8</string>
+ <string name="pref_camera_saturation_entry_level9" >Nivel 9</string>
+ <string name="pref_camera_saturation_entry_level10" >Nivel 10</string>
+ <string name="pref_camera_brightness_title" >Brillo</string>
+ <string name="pref_camera_brightness_entry_level0" >Nivel 0</string>
+ <string name="pref_camera_brightness_entry_level1" >Nivel 1</string>
+ <string name="pref_camera_brightness_entry_level2" >Nivel 2</string>
+ <string name="pref_camera_brightness_entry_level3" >Nivel 3</string>
+ <string name="pref_camera_brightness_entry_level4" >Nivel 4</string>
+ <string name="pref_camera_brightness_entry_level5" >Nivel 5</string>
+ <string name="pref_camera_brightness_entry_level6" >Nivel 6</string>
+ <string name="pref_camera_brightness_entry_level7" >Nivel 7</string>
+ <string name="pref_camera_brightness_entry_level8" >Nivel 8</string>
+ <string name="pref_camera_brightness_entry_level9" >Nivel 9</string>
+ <string name="pref_camera_brightness_entry_level10" >Nivel 10</string>
+ <string name="pref_camera_antibanding_title" >Anti-banda</string>
+ <string name="pref_camera_antibanding_default" >Automático</string>
+ <string name="pref_camera_antibanding_entry_0" >Apagado</string>
+ <string name="pref_camera_antibanding_entry_3" >Automático</string>
+ <string name="pref_camera_autoexposure_title" >Modo de medición</string>
+ <string name="pref_camera_autoexposure_entry_frameaverage" >Promedio de marco</string>
+ <string name="pref_camera_autoexposure_entry_centerweighted" >Ponderación central</string>
+ <string name="pref_camera_autoexposure_entry_spotmetering" >Medida de puntos</string>
+ <string name="pref_camera_videoencoder_title" >Codificador de video</string>
+ <string name="pref_camera_video_duration_title" >Duración de video</string>
+ <string name="pref_camera_video_duration_entry_mms" >30 segundos</string>
+ <string name="pref_camera_video_duration_entry_10" >10 minutos</string>
+ <string name="pref_camera_video_duration_entry_30" >30 minutos</string>
+ <string name="pref_camera_jpegquality_title" >Calidad de la imagen</string>
+ <string name="pref_camera_jpegquality_entry_superfine" >Súper fino</string>
+ <string name="pref_camera_jpegquality_entry_fine" >Fina</string>
+ <string name="pref_camera_jpegquality_entry_normal" >Normal</string>
+ <string name="pref_camera_coloreffect_title" >Efecto de color</string>
+ <string name="pref_camera_coloreffect_entry_none" >Ninguno</string>
+ <string name="pref_camera_coloreffect_entry_mono" >Mono</string>
+ <string name="pref_camera_coloreffect_entry_sepia" >Sepia</string>
+ <string name="pref_camera_coloreffect_entry_negative" >Negativo</string>
+ <string name="pref_camera_coloreffect_entry_solarize" >Solarizar</string>
+ <string name="pref_camera_coloreffect_entry_posterize" >Posterizar</string>
+ <string name="pref_camera_coloreffect_entry_aqua" >Aguamarina</string>
+ <string name="pref_video_quality_entry_high" >Alta</string>
+ <string name="pref_video_quality_entry_medium" >Media</string>
+ <string name="pref_video_quality_entry_low" >Baja</string>
+</resources>

@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">WMe</string>
+
+    <!-- facebook begin -->
+    <string name="applicationId">1404233603125231</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">確定</string>
+    <string name="com_facebook_loginview_log_out_button">登出</string>
+    <string name="com_facebook_loginview_log_in_button">登入</string>
+    <string name="com_facebook_loginview_logged_in_as">以: %1$s 登錄</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">登出</string>
+    <string name="com_facebook_loginview_log_out_message">確定登出嗎?</string>
+    <string name="com_facebook_loginview_log_in_prompt_message">請先登錄.</string>
+    <string name="com_facebook_loginview_cancel_action">取消</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">登入&#8230;</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">以登入</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">尚未登入</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d 在這裡</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d 在這裡</string>
+    <string name="com_facebook_picker_done_button_text">完成</string>
+    <string name="com_facebook_choose_friends">選擇朋友</string>
+    <string name="com_facebook_nearby">附近</string>
+    <string name="com_facebook_loading">加載中\u2026</string>
+    <string name="network_unavaliable">網絡無效</string>
+    <string name="com_facebook_requesterror_relogin">請登錄到這個應用程序，以重新連接你的Facebook帳戶。</string>
+    <string name="com_facebook_requesterror_password_changed">你的Facebook密碼已經改變了。請登錄到這個應用程序，以重新連接你的Facebook帳戶。</string>
+    <string name="com_facebook_requesterror_reconnect">請登錄到這個應用程序，以重新連接你的Facebook帳戶。</string>
+    <string name="com_facebook_requesterror_permissions">這個應用程序沒有這樣做的權限。要更改權限，請嘗試再次登錄到應用程序。</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest錯誤</string>
+    <string name="com_facebook_internet_permission_error_message">登錄需要WebView INTERNET權限。</string>
+    <string name="com_facebook_requesterror_web_login">你的Facebook帳戶被鎖定。請登錄到www.facebook.com繼續。</string>
+    <string name="facebook_features">Facebook 功能</string>
+    <string name="facebook_notification">通知</string>
+    <string name="facebook_checkin">以W/Me 打卡</string>
+    <string name="facebook_checkin_me_here">我在這裡！</string>
+    <string name="facebook_checkintext">打卡文字</string>
+    <string name="facebook_checkin_control_prompt">請將facebook 打卡勾選.</string>
+    <string name="setting_network_open">請打開位置開關.</string>
+    <string name="facebook_share_message_prefix">" 已使用 W/Me @ "</string>
+    <string name="facebook_share_message_success">分享成功！</string>
+    <string name="facebook_share_message_fail">分享失敗！</string>
+    <!-- facebook end -->
+
+    <string name="configuration_title">設定</string>
+    <string name="welcome_title">歡迎使用W&#047;Me</string>
+    <string name="home_title">W&#047;Me</string>
+    <string name="profile_title">基本資料</string>
+    <string name="settings_title">系統設定</string>
+    <string name="facebook_title">FACEBOOK 設定</string>
+    <string name="aboutus_title">關於我們</string>
+    <string name="faq_title">常見問題</string>
+    <string name="measure_title">健康量測</string>
+    <string name="coaching_title">呼吸訓練</string>
+    <string name="history_title">使用紀錄</string>
+    <string name="master_label">"您好 %s，"</string>
+    <string name="start_label">量測開始</string>
+    <string name="guest_label">訪客</string>
+    <string name="tutorial_title">教學課程</string>
+    <string name="prompt_label">觸碰感測器，保持穩定\u2026</string>
+    <string name="prompt_label_better">請保持穩定，加強接收\u2026</string>
+    <string name="calm_label">保持平靜\u2026</string>
+    <string name="measure_start_label">即將開始量測</string>
+    <string name="second_label">秒</string>
+    <string name="time_label">剩餘時間</string>
+    <string name="bpm_label">心跳數</string>
+    <string name="time_format">"<xliff:g id="minute">%s</xliff:g>m<xliff:g id="second">%s</xliff:g>s"</string>
+    <string name="measuring_label">正在量測\u2026</string>
+    <string name="guest_prompt_label">嗨，您好。\r\n告訴我更多關於您的資訊。</string>
+    <string name="guest_start_label">開始</string>
+    <string name="passive_area_flag">消極</string>
+    <string name="excitable_area_flag">興奮</string>
+    <string name="pessimistic_area_flag">悲觀</string>
+    <string name="anxious_area_flag">焦慮</string>
+    <string name="balanced_area_flag">平衡</string>
+    <string name="timeout_title">逾時</string>
+    <string name="timeout_wait_long">等候過久，請重新啟動！</string>
+    <string name="timeout_bluetooth">藍牙逾時，請稍候再試！</string>
+    <string name="signal_unstable">訊號不穩定</string>
+    <string name="hold_retrieve">保持穩定，才能擷取資料\u2026</string>
+    <string name="measure_continue">將於 %d 秒內繼續。</string>
+
+    <!-- Robin add strings begin -->
+    <string name="start">"開始"</string>
+    <string name="custom_level_txt">量身打造你的訓練方式！</string>
+    <string name="pair_wme">"配對 W&#047;Me"</string>
+    <string name="gmail">"Gmail"</string>
+    <string name="alarm">"鬧鐘"</string>
+    <string name="incoming_call">來電</string>
+    <string name="find_my_phone">"尋找我的手機"</string>
+    <string name="reset">"重設所有設定"</string>
+    <string name="facebook">"Facebook"</string>
+    <string name="reset_dialog_txt">W/Me 應用程式會回到重新設定所有資料的初始狀態，請點選[確定]繼續進行。</string>
+    <string name="inhale">"吸氣"</string>
+    <string name="exhale">"吐氣"</string>
+    <string name="hold">"閉氣"</string>
+    <string name="upper_unit_sec">"秒"</string>
+    <string name="cycles">"循環數"</string>
+    <string name="times">"次"</string>
+    <string name="level_m">"等級 M"</string>
+    <string name="level">"等級"</string>
+    <string name="sec">"秒"</string>
+    <string name="upper_cycle">"循環數"</string>
+    <string name="hit">"達成數"</string>
+    <string name="coaching_label">訓練中\u2026</string>
+    <string name="complete">"完成!"</string>
+    <string name="summary_title">"量測結果"</string>
+    <string name="time">"單次量測"</string>
+    <string name="day">"單日量測"</string>
+    <string name="hit_rate">達成率</string>
+    <string name="upper_inhale">"吸氣"</string>
+    <string name="upper_hold">"閉氣"</string>
+    <string name="upper_exhale">"吐氣"</string>
+    <!-- Robin add strings end -->
+
+
+    <!-- Danny add for chooser Dialog begin -->
+    <string name="profile_name_hint">姓名：</string>
+    <string name="profile_gender_male">男性</string>
+    <string name="profile_gender_female">女性</string>
+    <string name="profile_unit_cm">公分</string>
+    <string name="profile_unit_ft">英尺</string>
+    <string name="profile_unit_in">英寸</string>
+    <string name="profile_unit_kg">公斤</string>
+    <string name="profile_unit_lb">磅</string>
+    <string name="profile_name_cannot_be_null">基本資料因為名字為空所以無法存儲。</string>
+    <string name="profile_gender_cannot_be_null">基本資料因為性別為空所以無法存儲。</string>
+    <string name="profile_height_cannot_be_null">基本資料因為身高為空所以無法存儲。</string>
+    <string name="profile_weight_cannot_be_null">基本資料因為體重為空所以無法存儲。</string>
+    <string name="profile_birthday_cannot_be_null">基本資料因為生日為空所以無法存儲。</string>
+    <string name="chooser_dialog_done">"完成"</string>
+    <string name="chooser_height_dialog_title">"輸入身高"</string>
+    <string name="chooser_weight_dialog_title">"輸入體重"</string>
+    <string name="chooser_birthday_dialog_title">"輸入生日"</string>
+    <string name="profile_edit_prompt">請點選圖示，進行變更。一完成有效的輸入後，圖示隨即停止閃爍。</string>
+    <string name="profile_not_complete_prompt">請在繼續進行之前完成基本資料設定。</string>
+    <string name="profile_complete_prompt">您的基本資料已設定完成。請繼續配對W/Me 裝置，或繼續編輯基本資料。</string>
+    <!-- Danny add for chooser Dialog end -->
+
+    <string name="suggestion_title">建議</string>
+    <string name="agility_label">活力指數</string>
+    <string name="m_state_label">心情狀態</string>
+    <string name="day_label">日</string>
+    <string name="measure_history_title">量測紀錄</string>
+    <string name="coach_history_title">訓練紀錄</string>
+    <string name="ans_age_label">ANS 年齡</string>
+    <string name="delete_title">刪除</string>
+    <string name="delete_content">"刪除 <xliff:g id="date">%s</xliff:g> @ <xliff:g id="time">%s</xliff:g>?"</string>
+    <string name="begin_setup">開始設定</string>
+    <string name="setup_content">若要開始使用W/Me，請先設定您的基本資料，然後連線到W/Me裝置。請點選以下按鈕，開始進行。</string>
+    <string name="welcome_label">歡迎使用</string>
+    <string name="aboutus_version_title">應用程式版本：  %s</string>
+    <string name="aboutus_wme_version_title">腕帶版本： %s</string>
+    <string name="aboutus_description">W&#047;Me 由Phyode 生產製造，是本公司第一台互動性極高的裝置，甚至能以圖形呈現呼吸狀況。</string>
+
+    <!-- Paring string -->
+    <string name="pair_title">配對 W&#047;Me</string>
+    <string name="forget_device_label">忘記此裝置</string>
+    <string name="scan_device_label">掃描W&#047;Me 裝置</string>
+    <string name="no_pair_device_hit">無配對的裝置</string>
+    <string name="device_name_hit">W&#047;Me  - </string>
+    <string name="use_me_title">開始使用 W&#047;Me!</string>
+    <string name="device_connect">W&#047;Me 已連線</string>
+    <string name="device_not_connect">W&#047;Me 尚未連線</string>
+    <string name="pair_select_title">選擇 W&#047;Me 裝置</string>
+    <string name="pair_warning">如果過了很久還未搜尋到，點選重新掃描按鈕，然後按下腕帶上的按鈕，捲動至藍牙模式</string>
+    <string name="button_pair_label">配對  W&#047;Me</string>
+    <string name="button_edit_profile_label">編輯基本資料</string>
+    <string name="name_toast">點選即可變更 W&#047;Me 名稱</string>
+    <string name="open_bluetooth_toast">請打開藍牙功能</string>
+    <string name="close_wifi_toast">藍牙連線會因為Wi-Fi的打開而不穩定，建議你將其關閉。</string>
+    <string name="close_wifi">關閉</string>
+    <string name="turnoff_wifi_notification">測量中,Wi-Fi會暫時停用。</string>
+
+    <!-- FAQ String -->
+    <string name="faq_question1">1. 何謂 W&#047;Me？</string>
+    <string name="faq_question2">2. 何謂活力分數？</string>
+    <string name="faq_question3">3. 我為何應每日使用W&#047;Me？</string>
+    <string name="faq_question4">4. 為何需要3分鐘的量測時間？</string>
+    <string name="faq_question5">5. 我如何開始進行呼吸運動？</string>
+    <string name="faq_question6">6. 最有效的韻律呼吸的方式為何？</string>
+    <string name="faq_question7">7. 韻律呼吸有何重要性，對我有何好處？</string>
+    <string name="faq_question8">8. 何謂HRV？</string>
+    <string name="faq_question9">9. 何謂自律神經系統 (ANS)？</string>
+    <string name="faq_question1_answer">W&#047;Me可隨時隨地量測身心狀態。\r\nW&#047;Me採用數位化的方式量測心率變異度 (HRV)。藉由本公司的演算法，可推斷自律神經系統(ANS)活力。\r\n\r\nW/Me 能夠：\r\n量測情緒指數\r\n量測ANS活力\r\n訓導韻律呼吸運動\r\n定位您的手機\r\n在facebook上打卡\r\n相機遠端遙控器\r\n電子郵件警示\r\n裝置不在範圍內通知</string>
+    <string name="faq_question2_answer">活力分數代表心率變異度與身體穩定性之間的關聯，分數越高，即表示您的壓力調適能力越強。分數較低時，可能與免疫系統較弱以及更容易受到壓力影響有關。</string>
+    <string name="faq_question3_answer">定期使用W&#047;Me 就和一般的健康檢查相似，都能提供個人預防性照護。進行日常保養並瞭解自己的健康狀況，有助於確保生活品質，並降低醫療費用。\r\n身體會適時變換不同的狀態，因此若密切監控，將可根據整體情況，調整適合自身的生活形態。\r\n醫療業以HRV作為個人活力的量測基準，HRV 也是量測個人身心狀態的指標。HRV 可以反映出壓力調適能力。HRV 也適用於生物老化的指數。</string>
+    <string name="faq_question4_answer">為了準確呈現頻譜，W&#047;Me 採用約3分鐘的量測時間，以頻譜分析儀收集資料。這是比單單讀取每分鐘心跳數等簡易量測更為複雜的量測方式。</string>
+    <string name="faq_question5_answer">韻律呼吸的四大步驟\r\n\r\n 1. 地點：\r\n尋找舒適的環境，然後啟動應用程式。\r\n\r\n2. 姿勢：\r\n姿勢是發揮日常韻律呼吸最大功效的基礎。您可坐著或站著練習。最重要的一點是把背打直，抬頭挺胸。\r\n\r\n3. 放鬆：\r\n從頭到腳放鬆身體；從眉毛、頸部、肩膀、手臂、雙手、腿部，一直到腳趾，放鬆全身肌肉。\r\n\r\n請專心注意流入與流出身體的空氣。\r\n\r\n請參考訓練應用程式，控制吸氣與吐氣間隔。\r\n\r\n當您慢慢熟悉做法時，您的身體會開始放鬆，開始減輕壓力。\r\n\r\n4. 訓練\r\n請依照訓練應用程式的韻律進行，慢慢吸氣與吐氣。LSA 可以偵測出您是否根據我們的指導，完成此循環。請善用腹部呼氣與吸氣！請留意身體進與出的氣息的穩定性。</string>
+    <string name="faq_question6_answer">腹式呼吸是刺激放鬆反應的有效方式，可減輕壓力，調合身體狀態。只要定期練習腹式呼吸技巧，就能增加每日能量，因此請試著用我們的應用程式做看看。呼吸時，如同是從腹部區域吸氣一樣，進行腹式呼吸。吸氣時，試著擴張腹部肌肉。吐氣時，收縮腹部肌肉。</string>
+    <string name="faq_question7_answer">自律神經系統控制身體非自主的功能，包括呼吸。呼吸是少數可以有意識地控制的非自主功能之一。韻律呼吸是平衡身體內在工作的第一步，可使心律更協調。</string>
+    <string name="faq_question8_answer">心率變異度(HRV)是心跳時間間隔變異的生理現像，是以心跳間隔的變異測得。依據多年來的醫療研究與複雜的演算法，許多資訊可從心率變異度推論出來。W/Me 讓您知道自己的身心狀況。</string>
+    <string name="faq_question9_answer">自律神經系統控制身體非自主的功能，包括呼吸。呼吸是少數可以有意識地控制的非自主功能之一。韻律呼吸是平衡身體內在工作的第一步，可使心律更協調。</string>
+
+    <!-- Suggestion String -->
+    <string name="suggestion_ans_end">\r\n自律神經系統(ANS)年齡是以您的心率變異度(HRV)為基礎。取得您的HRV值，然後和資料庫內年齡族群的平均HRV值比對之後，即可求得您的ANS年齡；此年齡族群就是您的ANS年齡，基本上就是具有相同平均HRV值的年齡族群。您可能因為焦慮、高血壓、消化不良、負擔過重、外界壓力、疾病及憂鬱等問題，而使得ANS年齡比實際年齡還老。</string>
+    <string name="suggestion_bpm">心跳數是一分鐘之內發生的心跳次數，心跳數整體反映出個人的心肺功能，成人正常的心率介於 60次到 100次每分鐘之間，健康的年輕人和運動員心率會更低，甚至低於每分鐘 60次，心率可隨鍛練狀況和年齡不同而變化。</string>
+
+    <!-- facebook share -->
+    <string name="facebook_button">張貼於FACEBOOK</string>
+    <string name="facebook_message">在此留下訊息&#8230;</string>
+    <string name="facebook_share_title">分享</string>
+    <string name="wait_message">請等待\u2026</string>
+
+    <!-- wme welcom -->
+    <string name="health_guide_1">歡迎蒞臨\r\n量測中心！</string>
+    <string name="health_guide_2">嗨，您好。\r\n請保持平靜，自然呼吸，讓W&#047;Me 量測心率變異度並與分析您的狀況。只要幾分鐘的時間就可以完成量測。\r\n請滑動畫面，即可查看顯示說明。</string>
+    <string name="health_guide_3">波形將根據呼吸上下起伏。</string>
+    <string name="health_guide_4">感應您的即時身體訊號。</string>
+    <string name="health_guide_5">剩餘的量測時間在此顯示。</string>
+    <string name="health_guide_6">即時心跳速率在此顯示。</string>
+    <string name="health_guide_7">您的量測狀態：綠色表示訊號穩定，紅色表示您需要保持穩定、保持平靜。</string>
+    <string name="health_guide_8">歡迎蒞臨 \r\n訓練中心！</string>
+    <string name="health_guide_9">我們已設計出5種不同的等級與1種可設定的等級，供您練習腹式呼吸。\r\n每種等級的呼吸韻律定義都不同。等級越高，呼吸速度就要越慢。</string>
+    <string name="health_guide_10">根據鯨魚教練Attu的韻律以自己感到舒適的等級完成呼吸訓練。\r\n請滑動畫面，與我們的鯨魚教練Attu見面！</string>
+    <string name="health_guide_11">您好！我是您的教練Attu！\r\n請根據我的韻律調整呼吸步調。</string>
+    <string name="health_guide_12">我浮出水面時，請吸氣。\r\n我到達水面時，請閉氣！</string>
+    <string name="health_guide_13">我下沉時，請吐氣。\r\n準備進行下一回合。</string>
+    <string name="health_guide_14">就是這樣！很容易吧？\r\n請滑動畫面，深入瞭解訓練畫面。</string>
+    <string name="health_guide_16">剩餘的呼吸循環次數在此顯示。</string>
+    <string name="health_guide_17">完成呼吸循環的次數。</string>
+    <string name="health_guide_18">您的訓練狀態：綠色表示訊號穩定，紅色表示您需要保持穩定、保持平靜。</string>
+
+</resources>

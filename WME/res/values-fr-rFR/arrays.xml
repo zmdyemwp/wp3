@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <array name="custom_inhale">
+        <item>3sec.</item>
+        <item>4sec.</item>
+        <item>5sec.</item>
+        <item>6sec.</item>
+        <item>7sec.</item>
+        <item>8sec.</item>
+    </array>
+    <array name="custom_hold">
+        <item>1sec.</item>
+        <item>2sec.</item>
+        <item>3sec.</item>
+        <item>4sec.</item>
+        <item>5sec.</item>
+    </array>
+    <array name="custom_exhale">
+        <item>6sec.</item>
+        <item>7sec.</item>
+        <item>8sec.</item>
+        <item>9sec.</item>
+        <item>10sec.</item>
+        <item>11sec.</item>
+        <item>12sec.</item>
+        <item>13sec.</item>
+        <item>14sec.</item>
+        <item>15sec.</item>
+    </array>
+
+    <string-array name="agility_level">
+        <item>"Félicitations ! Votre score d'agilité de %1$d est fantastique ! Poursuivez vos efforts, et pensez à utiliser notre coach de respiration pour maintenir un bon score. Le score d'agilité est un index qui comprend l'âge de votre Système Nerveux Autonome (SNA) et de votre rythme cardiaque (en BPM). Votre âge SNA est de %2$d ans, %3$s. Votre rythme cardiaque est de %4$d BPM. La moyenne est de 72 battements par minute.</item>
+        <item>"Votre score d'agilité est de %1$d. Le score d'agilité est un index qui comprend l'âge de votre Système Nerveux Autonome (SNA) et de votre rythme cardiaque (en BPM). Votre âge SNA est de %2$d ans, %3$s. Votre rythme cardiaque est de %4$d BPM. La moyenne est de 72 battements par minute. Utilisez notre coach de respiration rythmique pour améliorer votre score." </item>
+        <item> "Votre score d'agilité est de %1$d. Le score d'agilité est un index qui comprend l'âge de votre Système Nerveux Autonome (SNA) et de votre rythme cardiaque (en BPM). Votre âge SNA est de %2$d ans, %1$s. Votre rythme cardiaque est de %4$d BPM. La moyenne est de 72 battements par minute. Nous vous conseillons fortement d'utiliser notre coach de respiration régulièrement pour améliorer votre score."</item>
+    </string-array>
+    <string-array name="agility_level_age">
+        <item>ce qui est égal à votre âge actuel</item>
+        <item>ce qui est plus vieux que votre âge réel</item>
+        <item>ce qui est bien, car plus jeune que votre âge réel</item>
+    </string-array>
+    <string-array name="ans_level">
+        <item>"Félicitations ! L'âge de votre système nerveux autonome (SNA) est égal à votre âge actuel. N'oubliez pas d'utiliser notre coach de respiration pour garder un jeune âge SNA et rester en forme !" </item>
+        <item>"Félicitations ! L'âge de votre système nerveux autonome (SNA) est %1$s. N'oubliez pas d'utiliser notre coach de respiration pour garder un jeune âge SNA et rester en forme !"</item>
+        <item>"L'âge de votre système nerveux autonome (SNA) %2$s est %1$d. Nous vous conseillons fortement d'utiliser notre coach de respiration régulièrement pour améliorer votre âge SNA."</item>
+    </string-array>
+    <string-array name="ans_level_age">
+        <item>un an plus vieux que votre âge actuel</item>
+        <item>%d plus vieux que votre âge actuel</item>
+        <item>un an plus jeune que votre âge actuel</item>
+        <item>%d plus jeune que votre âge actuel</item>
+    </string-array>
+</resources>

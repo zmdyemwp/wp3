@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2011 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources>
+     <declare-styleable name="SlidingMenu">
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="behindFadeEnabled" format="boolean" />
+        <attr name="behindFadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
+  
+    <!-- Attribute of HeartRateView -->
+    <declare-styleable name="HeartRateView">
+        <attr name="lineColor" format="color" />
+        <attr name="QPointColor" format="color" />
+        <attr name="RPointColor" format="color" />
+        <attr name="SPointColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+
+    <!-- Attribute of TimeAxisView -->
+    <declare-styleable name="TimeAxisView">
+        <attr name="objectGap" format="dimension" />
+        <attr name="objectWidth" format="dimension" />
+        <attr name="rightMagin" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="animationInterval" format="integer" />
+        <attr name="animationTimes" format="integer" />
+        <attr name="standLineColor" format="color" />
+    </declare-styleable>
+    
+    <declare-styleable name="MStatusView">
+        <attr name="roundRect" format="boolean" />
+        <attr name="smallFontRect" format="boolean" />
+    </declare-styleable>
+    
+    <declare-styleable name="ViewFlow">
+        <attr name="sidebuffer" format="integer" />
+    </declare-styleable>
+    
+    <declare-styleable name="CircleFlowIndicator">
+        <attr name="activeColor" format="color" />
+        <attr name="inactiveColor" format="color" />
+        <attr name="radius" format="dimension" />
+        <attr name="spacing" format="dimension" />
+        <attr name="centered" format="boolean" />
+        <attr name="fadeOut" format="integer" />
+        <attr name="inactiveType">
+            <flag name="stroke" value="0" />
+            <flag name="fill" value="1" />
+        </attr>
+        <attr name="activeType">
+            <flag name="stroke" value="0" />
+            <flag name="fill" value="1" />
+        </attr>
+    </declare-styleable>
+    
+   <declare-styleable name="WheelView">
+        <attr name="visible_count" format="integer" />
+    </declare-styleable>
+</resources>

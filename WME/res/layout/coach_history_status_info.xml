@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wme="http://schemas.android.com/apk/res/com.fihtdc.smartbracelet"
+    android:id="@+id/coach_history_status_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="@dimen/status_margin_top"
+        android:layout_weight="1" >
+
+        <com.fihtdc.smartbracelet.view.MStatusView
+            android:id="@+id/status_view_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            wme:roundRect="true" >
+        </com.fihtdc.smartbracelet.view.MStatusView>
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+        </FrameLayout>
+    </FrameLayout>
+
+</LinearLayout>

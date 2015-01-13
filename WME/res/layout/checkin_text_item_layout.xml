@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="50dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/check_in_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/setting_icon_margin"
+        android:layout_marginRight="@dimen/setting_icon_margin"
+        android:gravity="center_vertical"
+        android:text="@string/facebook_checkintext"
+        android:textAppearance="?android:attr/textAppearanceMediumInverse"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/setting_text_size_normal" />
+
+    <EditText
+        android:id="@+id/check_in_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="@dimen/setting_icon_margin"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="@string/facebook_checkin_me_here"
+        android:textColorHint="@android:color/white"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMediumInverse" />
+
+</LinearLayout>

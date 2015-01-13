@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+   <string name="app_name">WMe</string>
+
+
+    <!-- facebook begin -->
+    <string name="applicationId">1404233603125231</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_loginview_log_out_button">Déconnexion</string>
+    <string name="com_facebook_loginview_log_in_button">Connexion</string>
+    <string name="com_facebook_loginview_logged_in_as">Connecté en tant que: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Connecté via Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Déconnexion</string>
+    <string name="com_facebook_loginview_log_out_message">Etes-vous sûr de vouloir vous déconnecter ?</string>
+    <string name="com_facebook_loginview_log_in_prompt_message">"Merci de vous connecter d'abord."</string>
+    <string name="com_facebook_loginview_cancel_action">Annuler</string>
+    <string name="com_facebook_logo_content_description">Logo Facebook</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Connexion&#8230;</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Connecté</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Non connecté</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d étaient ici</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d étaient ici</string>
+    <string name="com_facebook_picker_done_button_text">Terminé</string>
+    <string name="com_facebook_choose_friends">Choisir amis</string>
+    <string name="com_facebook_nearby">Proche</string>
+    <string name="com_facebook_loading">Chargement\u2026</string>
+    <string name="network_unavaliable">Réseau indisponible</string>
+    <string name="com_facebook_requesterror_relogin">"Merci de vous reconnecter à l'application pour reconnecter à Facebook."</string>
+    <string name="com_facebook_requesterror_password_changed">"Votre mot de passe Facebook a changé. Merci de vous reconnecter à l'application pour reconnecter à Facebook."</string>
+    <string name="com_facebook_requesterror_reconnect">"Merci de vous reconnecter à l'application pour reconnecter à Facebook."</string>
+    <string name="com_facebook_requesterror_permissions">"Cette application n'a pas l'autorisation requise. Pour modifier les autorisations"</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Erreur</string>
+    <string name="com_facebook_internet_permission_error_message">WebView connexion nécessite une autorisation INTERNET.</string>
+    <string name="com_facebook_requesterror_web_login">Votre compte Facebook est verrouillé. Merci de vous connecter à www.facebook.com pour continuer.</string>
+    <string name="facebook_features">Fonctions Facebook</string>
+    <string name="facebook_notification">Notification</string>
+    <string name="facebook_checkin">Localisation avec W/Me</string>
+    <string name="facebook_checkin_me_here">Je suis là !</string>
+    <string name="facebook_checkintext">Commentaire</string>
+    <string name="facebook_checkin_control_prompt">"Merci d'ouvrir la commande de localisation."</string>
+    <string name="setting_network_open">"Merci d'autoriser l'accès à ma localisation."</string>
+    <string name="facebook_share_message_prefix">utilisé W/Me @</string>
+    <string name="facebook_share_message_success">Partagé avec succès !</string>
+    <string name="facebook_share_message_fail">Le partage a échoué !</string>
+    <!-- facebook end -->
+
+    <string name="configuration_title">CONFIGURATION</string>
+    <string name="welcome_title">Bienvenue sur W/Me</string>
+    <string name="home_title">W/Me</string>
+    <string name="profile_title">PROFIL</string>
+    <string name="settings_title">RÉGLAGES</string>
+    <string name="facebook_title">RÉGLAGES FACEBOOK</string>
+    <string name="aboutus_title">A PROPOS</string>
+    <string name="faq_title">FAQ</string>
+    <string name="measure_title">MESURER</string>
+    <string name="coaching_title">COACHING</string>
+    <string name="history_title">Histo.</string>
+    <string name="master_label">"Bonjour %s，"</string>
+    <string name="start_label">START</string>
+    <string name="guest_label">INVITÉ</string>
+    <string name="tutorial_title">TUTORIEL</string>
+    <string name="prompt_label">Touchez le capteur et maintenez-le</string>
+    <string name="prompt_label_better">Maintenez sans bouger pour une meilleure analyse</string>
+    <string name="calm_label">Restez calme</string>
+    <string name="measure_start_label">La mesure est sur ​​le point de commencer</string>
+    <string name="second_label">sec.</string>
+    <string name="time_label">TEMPS</string>
+    <string name="bpm_label">BPM</string>
+    <string name="time_format">"<xliff:g id="minute">%s</xliff:g>m<xliff:g id="second">%s</xliff:g>s"</string>
+    <string name="measuring_label">Mesure en cours</string>
+    <string name="guest_prompt_label">Bonjour invité。\r\nDites-en moi plus sur vous.</string>
+    <string name="guest_start_label">START</string>
+    <string name="passive_area_flag">Passif</string>
+    <string name="excitable_area_flag">Nerveux</string>
+    <string name="pessimistic_area_flag">Pessimiste</string>
+    <string name="anxious_area_flag">Anxieux</string>
+    <string name="balanced_area_flag">Équilibré</string>
+    <string name="timeout_title">Temps expiré</string>
+    <string name="timeout_wait_long">Attente trop longue, veuillez redémarrer !</string>
+    <string name="timeout_bluetooth">Bluetooth expiré</string>
+    <string name="signal_unstable">Le signal est instable</string>
+    <string name="hold_retrieve">Maintenez fixement pour rétablir\u2026</string>
+    <string name="measure_continue">Reprend dans %d sec.</string>
+
+    <!-- Robin add strings begin -->
+    <string name="start">Start</string>
+    <string name="custom_level_txt">Personnalisez votre méthode !</string>
+    <string name="pair_wme">Jumelez W/ME</string>
+    <string name="gmail">Gmail</string>
+    <string name="alarm">Alarme</string>
+    <string name="incoming_call">Appel entrant</string>
+    <string name="find_my_phone">Trouver mon téléphone</string>
+    <string name="reset">"Réinitialiser tous les paramètres"</string>
+    <string name="facebook">Facebook</string>
+    <string name="reset_dialog_txt">"Tous les paramètres seront réinitialisés aux valeurs par défaut et l'application W/Me redémarrera pour exécuter le scénario de bienvenue. Veuillez appuyer sur OK pour poursuivre."</string>
+    <string name="inhale">Inspirez</string>
+    <string name="exhale">Expirez</string>
+    <string name="hold">Maintenez</string>
+    <string name="upper_unit_sec">Sec.</string>
+    <string name="cycles">Cycles</string>
+    <string name="times">Temps</string>
+    <string name="level_m">NIVEAU M</string>
+    <string name="level">NIVEAU</string>
+    <string name="sec">sec.</string>
+    <string name="upper_cycle">CYCLE</string>
+    <string name="hit">RÉALISÉ</string>
+    <string name="coaching_label">Coaching en cours</string>
+    <string name="complete">TERMINÉ !</string>
+    <string name="summary_title">RÉSUMÉ</string>
+    <string name="time">TEMPS</string>
+    <string name="day">JOUR</string>
+    <string name="hit_rate">TAUX</string>
+    <string name="upper_inhale">INSPIRE</string>
+    <string name="upper_hold">BLOQUE</string>
+    <string name="upper_exhale">EXPIRE</string>
+    <!-- Robin add strings end -->
+
+
+    <!-- Danny add for chooser Dialog begin -->
+    <string name="profile_name_hint">Nom :</string>
+    <string name="profile_gender_male">Homme</string>
+    <string name="profile_gender_female">Femme</string>
+    <string name="profile_unit_cm">cm</string>
+    <string name="profile_unit_ft">in</string>
+    <string name="profile_unit_in">ft</string>
+    <string name="profile_unit_kg">kg</string>
+    <string name="profile_unit_lb">lb</string>
+    <string name="profile_name_cannot_be_null">Les informations du profil ne sont pas sauvegardées</string>
+    <string name="profile_gender_cannot_be_null">Les informations du profil ne sont pas sauvegardées</string>
+    <string name="profile_height_cannot_be_null">Les informations du profil ne sont pas sauvegardées</string>
+    <string name="profile_weight_cannot_be_null">Les informations du profil ne sont pas sauvegardées</string>
+    <string name="profile_birthday_cannot_be_null">Les informations du profil ne sont pas sauvegardées</string>
+    <string name="chooser_dialog_done">Terminé</string>
+    <string name="chooser_height_dialog_title">Saisir Taille</string>
+    <string name="chooser_weight_dialog_title">Saisir Poids</string>
+    <string name="chooser_birthday_dialog_title">Saisir Date de Naissance</string>
+    <string name="profile_edit_prompt">Veuillez appuyer sur les icônes pour effectuer les changements. Les icônes cesseront de clignoter une fois la saisie correcte.</string>
+    <string name="profile_not_complete_prompt">Veuillez remplir le profil avant de poursuivre.</string>
+    <string name="profile_complete_prompt">"Votre profil est prêt. Veuillez jumeler l'appareil W/Me ou continuer à modifier le profil."</string>
+    <!-- Danny add for chooser Dialog end -->
+
+    <string name="suggestion_title">SUGGESTION</string>
+    <string name="agility_label">AGILITÉ</string>
+    <string name="m_state_label">MENTAL</string>
+    <string name="day_label">JOUR</string>
+    <string name="measure_history_title">HISTO. MESURES</string>
+    <string name="coach_history_title">HISTO. COACHING</string>
+    <string name="ans_age_label">ÂGE SNA</string>
+    <string name="delete_title">Supprimer</string>
+    <string name="delete_content">"Supprimer l'historique sur <xliff:g id="date">%s</xliff:g> @ <xliff:g id="time">%s</xliff:g>?"</string>
+    <string name="begin_setup">Commencer la configuration</string>
+    <string name="setup_content">"Pour commencer à utiliser W/Me, configurez d'abord votre profil puis connectez-vous à votre appareil W/Me. Veuillez appuyer sur le bouton ci-dessous pour commencer."</string>
+    <string name="welcome_label">Bienvenue sur</string>
+    <string name="aboutus_version_title">"version de l'application W/Me : %s"</string>
+    <string name="aboutus_wme_version_title">version du bracelet W/Me :  %s</string>
+    <string name="aboutus_description">"W/Me a été créé par Phyode"</string>
+
+    <!-- Paring string -->
+    <string name="pair_title">JUMELAGE DU W/Me</string>
+    <string name="forget_device_label">Oublier cet appareil</string>
+    <string name="scan_device_label">"Recherche d'appareil W/Me"</string>
+    <string name="no_pair_device_hit">Aucun appareil jumelé</string>
+    <string name="device_name_hit">W/Me  - </string>
+    <string name="use_me_title">Commencez à utiliser W/Me!</string>
+    <string name="device_connect">W/Me connecté</string>
+    <string name="device_not_connect">W/Me NON connecté</string>
+    <string name="pair_select_title">Sélectionnez le bracelet W/Me</string>
+    <string name="pair_warning">Appuyez sur le bouton de recherche et appuyez sur le bouton du bracelet si rien ne se passe.</string>
+    <string name="button_pair_label">JUMELAGE DU W/Me</string>
+    <string name="button_edit_profile_label">Modifier le profil</string>
+    <string name="name_toast">Sélectionnez pour modifier le nom du W/Me</string>
+    <string name="open_bluetooth_toast">Veuillez ouvrir la fonction bluetooth</string>
+    <string name="close_wifi_toast">La connexion Bluetooth peut entraîner une instabilité par Wi-Fi</string>
+    <string name="close_wifi">OFF</string>
+    <string name="turnoff_wifi_notification">Le Wi-Fi sera désactivé temporairement pendant la mesure.</string>
+
+    <!-- FAQ String -->
+    <string name="faq_question1">"1. Qu'est-ce que W/Me ?"</string>
+    <string name="faq_question2">"2. Qu'est-ce que le score d'agilité?"</string>
+    <string name="faq_question3">3. Pourquoi dois-je utiliser W/Me quotidiennement?</string>
+    <string name="faq_question4">4. Pourquoi les mesures prennent-elles 3 minutes?</string>
+    <string name="faq_question5">5. Comment débuter les exercices de respiration ?</string>
+    <string name="faq_question6">6. Quelle est la façon la plus efficace de faire de la respiration rythmique?</string>
+    <string name="faq_question7">"7. Pourquoi la respiration rythmique est importante et que peut-elle m'apporter ?"</string>
+    <string name="faq_question8">"8. Qu'est-ce que la VRC ?"</string>
+    <string name="faq_question9">"9. Qu'est-ce que le Système Nerveux Autonome (SNA) ?"</string>
+    <string name="faq_question1_answer">"W/Me peut mesurer votre état physique et moral à tout moment.\nW/Me mesure de façon numérique la variabilité de votre fréquence cardiaque (VFC) grâce à un algorithme. Le rythme cardiaque peut influer sur l'agilité de votre système nerveux autonome.\n\nW/Me peut :\nMesurer la susceptibilité émotionnelle\nMesurer l'agilité SNA\nServir de coach pour des exercices de respiration\nLocaliser votre téléphone\nSe localiser sur Facebook\nDéclencher l'appareil photo à distance\nEnvoyer des alertes par e-mail\nÉmettre une alerte si l'appareil est hors de portée"</string>
+    <string name="faq_question2_answer">"Le score d'agilité représente la corrélation entre la variation du rythme cardiaque et la stabilité du corps. Plus le score est élevé, mieux vous résisterez au stress. Les scores faibles peuvent correspondre à un système immunitaire plus faible et à plus de vulnérabilité face au stress."</string>
+    <string name="faq_question3_answer">"Comme les examens de santé généraux, utiliser W/Me permet d'effectuer régulièrement certains soins préventifs. L'importance du maintien en bonne forme et de la compréhension de votre santé, de manière régulière, assure un confort de vie et aide à réduire les frais de santé.\nLe corps passe d’un état à l’autre continuellement. Une surveillance rapprochée vous donne la possibilité de prendre certaines décisions réfléchies sur votre style de vie.\n\nLa médecine utilise la VFC en tant que mesure de base pour calculer la vitalité d'une personne. Il sert d'indicateur pour mesurer l'état physique et mental d'une personne. La VFC reflète aussi notre vulnérabilité face au stress. La VFC est également un indice utilisé afin de déterminer de l'âge biologique d’un individu."</string>
+    <string name="faq_question4_answer">"Afin d'obtenir une représentation exacte du spectre de fréquence, W/Me a besoin d'environ 3 minutes pour recueillir des données avec l'analyseur de spectre de vie. Il s'agit d'un procédé bien plus complet que la simple mesure du rythme cardiaque (BPM)."</string>
+    <string name="faq_question5_answer">"Quatre étapes pour la respiration rythmique\n\n1. Emplacement :\n\nTrouvez un environnement confortable et lancez l'application.\n\n2. Posture :\n\nLa posture est la base de la maximisation de votre exercice de respiration rythmique. Vous pouvez la pratiquer en position assise ou debout. Assurez-vous d’avoir votre épine dorsale bien droite et votre tête relevée.\n\n3.Détente :\n\nDétendez votre corps, commencez par le haut, relâchez les muscles de vos sourcils, votre cou, vos épaules, vos bras, vos mains, vos jambes jusqu'à vos orteils.\n\nConcentrez-vous sur le flux d'air qui entre et ressort de votre corps.\n\nContrôlez vos intervalles d'inspiration et d'expiration en vous référant au coaching de l’application\n\nLorsque vous vous sentez à l'aise, votre corps commencera à se détendre et à se libérer du stressn\n4. Coaching\n\nSuivez le rhyme de notre application de coaching. Inspirez et expirez lentement. Le LSA peut détecter si vous avez ou non effectué le cycle en suivant les instructions. N'oubliez pas d'utiliser votre abdomen ! Concentrez-vous sur le flux d'air quittant votre corps."</string>
+    <string name="faq_question6_answer">"La respiration abdominale est une façon efficace de stimuler la relaxation pour réduire le stress et permettre au corps d'être en harmonie avec lui-même. Votre niveau d'énergie au quotidien peut être augmenté si vous pratiquez des techniques de respiration abdominale régulièrement. Essayez de le faire avec notre application. La respiration abdominale se fait en respirant comme si vous inhaliez depuis votre zone abdominale. Essayez d'inspirer en étendant vos muscles abdominaux. Expirez en contractant vos muscles abdominaux."</string>
+    <string name="faq_question7_answer">"Le système nerveux autonome contrôle les fonctions involontaires du corps, dont la respiration. La respiration est une des rares fonctions involontaires pouvant être contrôlée de façon consciente. La respiration rythmique est la première étape de l'équilibrage du fonctionnement interne de votre corps. La respiration rythmique peut faciliter un rythme cardiaque plus harmonieux."</string>
+    <string name="faq_question8_answer">"La variabilité de la fréquence cardiaque (VFC) est le phénomène physiologique de la variation des intervalles de temps entre chaque battement du cœur. De nombreuses années de recherche médicale et d'algorithmes complexes ont permis d’extraire beaucoup d'informations issues de l’étude de la variabilité de la fréquence cardiaque. W/Me vous informe de votre état physique et émotionnel."</string>
+    <string name="faq_question9_answer">"Le système nerveux autonome (SNA) contrôle la majorité de nos activités physiques involontaires : battements du cœur, pression sanguine, température du corps, respiration et mobilité gastro-intestinale. Le SNA est situé dans une partie du cerveau appelée medulla oblongata. Le but principal de la médecine préventive est de maintenir les fonctions du SNA. Le SNA est en général divisé en deux systèmes : le système nerveux sympathique et le système nerveux parasympathique."</string>
+
+    <!-- Suggestion String -->
+    <string name="suggestion_ans_end">"\r\n L'âge de votre système nerveux autonome (SNA) est basé sur la variabilité de votre fréquence cardiaque (VFC). Votre âge SNA est déterminé en croisant votre VFC et la VFC moyenne d'un groupe d'âge issu de notre base de données ; ce groupe d'âge correspond à votre âge SNA. Il s'agit essentiellement du groupe d'âge d'autres personnes ayant la même VFC moyenne. Vous pouvez avoir un âge SNA supérieur à votre âge réel en raison d'anxiété"</string>
+    <string name="suggestion_bpm">"Le rythme cardiaque est le nombre de battements du cœur par unité de temps, en général exprimé en battements par minute (BPM). Il représente la condition générale de votre cœur et de vos poumons. Les adultes ont des rythmes cardiaques normaux entre 60 et 100 BPM. Le rythme cardiaque moyen est d'environ 72 BPM. Les rythmes cardiaques inférieurs à 60 BPM sont courants chez les athlètes."</string>
+
+    <!-- facebook share -->
+    <string name="facebook_button">PUBLIEZ SUR FACEBOOK</string>
+    <string name="facebook_message">Laissez votre message ici</string>
+    <string name="facebook_share_title">Partagez</string>
+    <string name="wait_message">Veuillez patienter\u2026</string>
+
+    <!-- wme welcom -->
+    <string name="health_guide_1">Bienvenue sur le \r\n Centre de Mesure !</string>
+    <string name="health_guide_2">"Bonjour,\r\nRestez calme et respirez naturellement pour que W/Me mesure et analyse votre condition en fonction de la variabilité de votre rythme cardiaque.Les mesures ne prennent que quelques minutes. Veuillez faire défiler l'écran pour voir les descriptions affichées."</string>
+    <string name="health_guide_3">La vague montera et descendra en fonction de votre respiration.</string>
+    <string name="health_guide_4">Le signal de votre corps en temps réel depuis le capteur W/Me.</string>
+    <string name="health_guide_5">Le temps restant pour finir la mesure est affiché ici.</string>
+    <string name="health_guide_6">Votre rythme cardiaque est affiché ici en temps réel.</string>
+    <string name="health_guide_7">Votre état de mesure : Vert signifie un signal stable, et rouge signifie que vous devez vous maintenir et rester calme.</string>
+    <string name="health_guide_8">Bienvenue sur le \r\n Centre de Coaching !</string>
+    <string name="health_guide_9">Nous avons conçu 5 différents niveaux et 1 niveau programmable pour que vous puissiez pratiquer votre respiration abdominale.Chaque niveau est défini par un rythme de respiration différent. Plus le niveau est élevé, plus le rythme de respiration doit être lent.</string>
+    <string name="health_guide_10">"En suivant le rythme de votre coach-baleine Attu, vous pouvez rythmer votre respiration et effectuer le niveau avec lequel vous vous sentez à l'aise.\r\n Veuillez faire défiler l'écran pour rencontrer notre coach, Attu la baleine !"</string>
+    <string name="health_guide_11">Bonjour ! Je suis votre coach, Attu !\r\nRythmez votre respiration en suivant mon rythme.</string>
+    <string name="health_guide_12">"Lorsque je monte à la surface, inspirez.\r\n Quand j'atteins la surface, maintenez votre respiration !"</string>
+    <string name="health_guide_13">Quand je plonge vers les profondeurs, expirez. Et préparez-vous pour le tour suivant.</string>
+    <string name="health_guide_14">"C'est tout ! Facile, non ?\r\n Veuillez faire défiler l'écran pour en savoir plus sur l'écran de coaching."</string>
+    <string name="health_guide_16">"Le nombre de cycles restants pour finir l'entraînement est affiché ici."</string>
+    <string name="health_guide_17">Le nombre de cycles passés.</string>
+    <string name="health_guide_18">Votre état de coaching : Vert signifie un signal stable, et rouge signifie que vous devez vous maintenir et rester calme.</string>
+    
+</resources>

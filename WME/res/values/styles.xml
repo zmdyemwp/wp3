@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2010-present Facebook.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="com_facebook_blue">#3B5998</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#FFFFFF</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#000000</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#A6AED7</color>
+
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">158dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">158dp</dimen>
+    <dimen name="com_facebook_loginview_padding_left">42dp</dimen>
+    <dimen name="com_facebook_loginview_padding_right">0dp</dimen>
+    <dimen name="com_facebook_loginview_padding_top">0dp</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">0dp</dimen>
+    <dimen name="com_facebook_loginview_width">174dp</dimen>
+    <dimen name="com_facebook_loginview_height">36dp</dimen>
+
+    <color name="com_facebook_loginview_text_color">#FFFFFF</color>
+
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+
+    <style name="com_facebook_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:width">@dimen/com_facebook_loginview_width</item>
+        <item name="android:height">@dimen/com_facebook_loginview_height</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_blue</item>
+        <item name="android:textColor">@color/com_facebook_loginview_text_color</item>
+        <item name="android:textSize">@dimen/com_facebook_loginview_text_size</item>
+        <item name="android:paddingLeft">@dimen/com_facebook_loginview_padding_left</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="com_facebook_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:width">205dp</item>
+        <item name="android:height">44dp</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_silver</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#4B5164</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppBaseThemeShare" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@drawable/window_background</item>
+        <item name="android:actionBarStyle">@style/AppActionBarStyle</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+    </style>
+
+    <style name="AppThemeLight" parent="AppBaseThemeShare">
+        <item name="android:windowBackground">@drawable/window_background</item>
+        <item name="android:actionBarStyle">@style/AppActionBarStyle</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+    </style>
+
+    <style name="AppDailogTheme" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar.MinWidth">
+        <item name="android:windowBackground">@drawable/background_corner</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+    </style>
+
+    <style name="AppActionBarStyle" parent="@android:style/Widget.ActionBar">
+        <item name="android:background">@drawable/actionbar_background</item>
+    </style>
+
+    <style name="ActionBarTitle">
+        <item name="android:textSize">@dimen/actionbar_title_size</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="ConfigurationLabel">
+        <item name="android:textSize">@dimen/configuration_text_size</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="AppButton" parent="@android:attr/buttonStyle">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:textSize">@dimen/app_button_text_size</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">@dimen/app_button_frame_width</item>
+        <item name="android:paddingBottom">@dimen/app_button_frame_width</item>
+    </style>
+
+    <style name="AppButton.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppButton.Small">
+        <item name="android:textSize">@dimen/app_button_text_size_small</item>
+    </style>
+
+    <style name="AppProgressStyle" parent="@android:attr/progressBarStyleSmall">
+        <item name="android:minWidth">32dip</item>
+        <item name="android:maxWidth">32dip</item>
+        <item name="android:minHeight">32dip</item>
+        <item name="android:maxHeight">32dip</item>
+    </style>
+
+    <style name="HomeButton" parent="@style/AppButton">
+        <item name="android:layout_width">@dimen/measure_layout_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/measure_layout_minHeight</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/measure_layout_magin</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">@dimen/home_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MeasureLayoutStyle" parent="@style/AppButton">
+        <item name="android:layout_width">@dimen/measure_layout_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/measure_layout_minHeight</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/measure_layout_magin</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PostStyle" parent="@style/MeasureLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/layout_magin_top</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppText">
+        <item name="android:textSize">@dimen/app_button_text_size</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+
+    <style name="AppText.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ProfileBriefTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:background">#FFFFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/profile_text_size</item>
+        <item name="android:textColor">#5DACB8</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ChooserDialogTitleStyle">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="FihConfimrDialogAnim">
+        <item name="android:windowEnterAnimation">@anim/zzz_fih_confirm_dialog_enter</item>
+    </style>
+
+    <style name="ChooerDialogTheme">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <!-- item name="android:windowBackground">@null</item -->
+        <item name="android:windowAnimationStyle">@style/FihConfimrDialogAnim</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="AboutUsTextViewStyle">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Medium</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="FQAResultTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#7d0385</item>
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:layout_marginTop">20dip</item>
+        <item name="android:layout_marginBottom">10dip</item>
+    </style>
+
+    <style name="FQAResultSolution">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:paddingLeft">35dip</item>
+        <item name="android:paddingRight">35dip</item>
+    </style>
+
+    <style name="text_gray_style">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#ffafded7</item>
+    </style>
+
+    <style name="FacebookShareLayout">
+        <item name="android:background">@color/button_normal_transparent_color</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="FacebookShareLabel">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="FacebookShareResult">
+        <item name="android:textSize">35dp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_marginTop">-10dp</item>
+    </style>
+
+    <style name="ThemeCamera" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/black</item>
+    </style>
+
+</resources>

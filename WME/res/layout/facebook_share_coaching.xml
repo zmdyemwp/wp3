@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/facabook_share_coaching_height"
+    android:background="@drawable/facebook_share_background"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/health_share_bg_01"
+        android:orientation="vertical" >
+
+        <com.fihtdc.smartbracelet.view.AnimatedImageView
+            android:id="@+id/complete_whale"
+            android:layout_width="@dimen/facabook_share_fish_width"
+            android:layout_height="@dimen/facabook_share_fish_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="-15dp"
+            android:src="@drawable/level_complete_whale" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/level_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/button_text_color"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/complete"
+                android:textColor="@color/button_text_color"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/cycle_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/button_text_color"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/hit_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/button_text_color"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/hitrate_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/button_text_color"
+                android:textSize="18dp" />
+
+            <com.fihtdc.smartbracelet.view.AnimatedImageView
+                android:id="@+id/rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-10dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:src="@drawable/stars_change" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/complete_whale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/health_share_bg_02" />
+    </RelativeLayout>
+
+</LinearLayout>

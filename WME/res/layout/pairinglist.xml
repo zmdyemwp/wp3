@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/scaned_list_margin"
+    android:layout_marginRight="@dimen/scaned_list_margin"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/pair_select_title"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/scaned_list_title" />
+
+    <ProgressBar
+        android:id="@+id/progress_scan"
+        style="@android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/wifilayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/close_wifi_toast"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/scaned_list_rescan" />
+
+        <Button
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close_wifi"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pair_warning"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/scaned_list_rescan" />
+
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:src="@drawable/scan_background" />
+    </LinearLayout>
+
+</LinearLayout>

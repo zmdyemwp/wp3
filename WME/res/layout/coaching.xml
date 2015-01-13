@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:smartbracelet="http://schemas.android.com/apk/res/com.fihtdc.smartbracelet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/health_coach_bg_04" >
+
+    <com.fihtdc.smartbracelet.view.AnimatedImageView
+        android:id="@+id/whale_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/coaching_fish_margin_bottom"
+        android:scaleType="fitXY"
+        android:src="@drawable/fountain_when_hit" />
+
+    <com.fihtdc.smartbracelet.view.AnimatedImageView
+        android:id="@+id/bubble_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/whale_view"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="-85dp"
+        android:layout_marginRight="60dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/health_coach_bg_05" />
+
+    <com.fihtdc.smartbracelet.view.HeartRateView
+        android:id="@+id/heartRateVieww"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heatrate_height"
+        android:layout_above="@+id/result_panel"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        smartbracelet:QPointColor="#FFFFFFFF"/>
+
+    <RelativeLayout
+        android:id="@+id/result_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/measure_status"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upper_cycle"
+                android:textColor="@color/measure_label_color"
+                android:textSize="@dimen/coaching_title_text_size"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/cycle_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/measure_label_color"
+                android:textSize="@dimen/coaching_index_text_size"
+                android:layout_marginTop="-15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hit"
+                android:textColor="@color/measure_label_color"
+                android:textSize="@dimen/coaching_title_text_size"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/hit_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/measure_label_color"
+                android:textSize="@dimen/coaching_index_text_size" 
+                android:layout_marginTop="-15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bpm_label"
+                android:textColor="@color/measure_label_color"
+                android:textSize="@dimen/coaching_title_text_size"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/bpm_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/measure_label_color"
+                android:textSize="@dimen/coaching_index_text_size"
+                android:layout_marginTop="-15dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/status" 
+        android:id="@+id/measure_status"/>
+
+    <ImageView
+        android:id="@+id/wave_above_dark"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/coaching_dark_wave_height"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/health_measure_wavesabove_dark_ic" />
+    
+    <include layout="@layout/coaching_prepare"/>
+
+</RelativeLayout>

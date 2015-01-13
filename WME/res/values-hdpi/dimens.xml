@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Button size -->
+    <dimen name="app_button_frame_width">2.5dp</dimen>
+
+    <!-- TimeAxis dimen values -->
+    <dimen name="timeaxis_text_size">20px</dimen>
+    <dimen name="timeaxis_object_gap">52dp</dimen>
+    <dimen name="timeaxis_object_width">25dp</dimen>
+    <dimen name="timeaxis_right_margin">10dp</dimen>
+    <dimen name="history_frame_margin_horizontal">20dp</dimen>
+    <dimen name="history_time_text_size">40px</dimen>
+    <dimen name="history_label_text_size">30px</dimen>
+    <dimen name="history_value_text_size">80px</dimen>
+    <dimen name="circle_light_label_text_size">23px</dimen>
+    <dimen name="circle_light_value_text_size">60px</dimen>
+    <dimen name="circle_dark_label_text_size">30px</dimen>
+    <dimen name="circle_dark_value_text_size">90px</dimen>
+    <dimen name="state_view_text_size">30px</dimen>
+    <dimen name="state_view_small_text_size">30px</dimen>
+
+    <!-- Profile layout -->
+    <dimen name="profile_edit_text_size">35px</dimen>
+
+    <!-- scan list layout -->
+    <dimen name="scaned_list_rescan">16dp</dimen>
+    <dimen name="scaned_list_name">20dp</dimen>
+    <dimen name="scaned_list_title">20dp</dimen>
+    <dimen name="scaned_list_item_height">50dp</dimen>
+    <dimen name="scaned_list_margin">18dp</dimen>
+    <dimen name="scaned_toast_text_size">20dp</dimen>
+    <dimen name="scaned_toast_offset_y">250px</dimen>
+    <dimen name="scaned_toast_padding">12dp</dimen>
+
+    <!-- About us -->
+    <dimen name="aboutus_padding_left">42dp</dimen>
+    <dimen name="aboutus_padding_marge_top">62dp</dimen>
+    <dimen name="aboutus_padding_marge">20dp</dimen>
+    <dimen name="aboutus_padding_top">100dp</dimen>
+
+    <!-- Settings -->
+    <dimen name="setting_padding_left">8dp</dimen>
+
+    <!-- Summary -->
+    <dimen name="cicle_stroke_width">3dp</dimen>
+    <dimen name="margin_bottom">25dp</dimen>
+
+    <!-- coaching history layout -->
+    <dimen name="bg_view_margin_bottom_value">20dp</dimen>
+    <dimen name="black_view_height">5dp</dimen>
+    <dimen name="box_padding_value">15dp</dimen>
+    <dimen name="time_box_padding_top">3dp</dimen>
+    <dimen name="cycle_padding_top">10dp</dimen>
+    <dimen name="day_time_textsize">50px</dimen>
+    <dimen name="content_text_size">30px</dimen>
+    <dimen name="day_title_text_size">30px</dimen>
+    <dimen name="setting_text_size_normal">21dp</dimen>
+    <dimen name="status_margin_top">5dp</dimen>
+    <dimen name="axis_view_height">95dp</dimen>
+    <!-- level chooser layout -->
+    <dimen name="level_name_padding_right">30dp</dimen>
+    <dimen name="level_name_padding_left">5dp</dimen>
+    <dimen name="item_padding_value">8dp</dimen>
+    <dimen name="level_name_textsize">80px</dimen>
+    <dimen name="level_text_size">40px</dimen>
+
+    <!-- Coaching test page -->
+    <dimen name="whale_translate_height">175dp</dimen>
+    <dimen name="coaching_title_text_size">30px</dimen>
+    <dimen name="coaching_index_text_size">75px</dimen>
+
+    <!-- custom level page -->
+    <dimen name="custom_level_name_text_size">80px</dimen>
+    <dimen name="indicator_text_size">45px</dimen>
+    <dimen name="index_title_text_size">30px</dimen>
+    <dimen name="index_text_size">36px</dimen>
+    <dimen name="start_button_text_size">80px</dimen>
+    <dimen name="custom_top1">15dp</dimen>
+    <dimen name="custom_top2">20dp</dimen>
+    
+    <!-- Measure -->
+    <dimen name="fish_margin_right">10dp</dimen>
+    <dimen name="fish_offset_y">40dp</dimen>
+    <dimen name="fish_jump_height">200dp</dimen>
+    <dimen name="wave_translate_height">120dp</dimen>
+    <dimen name="heatrate_height">105dp</dimen>
+
+    <!-- Coaching prepare -->
+    <dimen name="coaching_dark_wave_height">224dp</dimen>
+    <dimen name="coaching_fish_margin_bottom">30dp</dimen>
+    <dimen name="coaching_text_margin_top">6dp</dimen>
+
+    <!-- GestureDetector -->
+    <dimen name="gesture_detector">200px</dimen>
+
+    <!-- share facebook -->
+    <dimen name="facabook_share_statusview_height">250dp</dimen>
+
+</resources>

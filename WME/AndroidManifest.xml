@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fihtdc.smartbracelet"
+    android:versionCode="4013003"
+    android:versionName="4.0130.03" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <!-- app need devices support bluetooth_le hardware -->
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- the follow permission need platform signeture -->
+    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- the follow permission need platform signeture -->
+    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER" />
+    <!-- BLE for link and control remote BT devices -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- receive the new Gmail action's permission -->
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.providers.gmail.permission.READ_GMAIL" />
+    <uses-permission android:name="com.google.android.gm.permission.READ_GMAIL" />
+    <!-- Enables access to Gmail's content provider -->
+    <uses-permission android:name="com.google.android.gm.permission.READ_CONTENT_PROVIDER" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <application
+        android:name="BraceletApplication"
+        android:allowBackup="true"
+        android:debuggable="false"
+        android:icon="@drawable/health_ic_home"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/applicationId" />
+
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.WelcomeActivity"
+            android:label="@string/welcome_title"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.HomeActivity"
+            android:label="@string/home_title"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.FaceBookSettingActivity"
+            android:label="@string/facebook_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.ProfileActivity"
+            android:label="@string/profile_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.SettingsActivity"
+            android:label="@string/settings_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.AboutUsActivity"
+            android:label="@string/aboutus_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.FAQActivity"
+            android:label="@string/faq_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.UserChooserActivity"
+            android:label="@string/measure_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.GuestProfileActivity"
+            android:label="@string/measure_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.MeasureActivity"
+            android:label="@string/measure_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.LevelChooserActivity"
+            android:label="@string/coaching_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.CoachingCustomActivity"
+            android:label="@string/coaching_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.CoachingStartActivity"
+            android:label="@string/coaching_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.CoachingActivity"
+            android:label="@string/coaching_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.HistoryActivity"
+            android:label="@string/history_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.TutorialActivity"
+            android:label="@string/tutorial_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SummaryActivity"
+            android:label="@string/summary_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SuggestionActivity"
+            android:label="@string/summary_title"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.PairActivity"
+            android:label="@string/pair_title"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fihtdc.smartbracelet.activity.PairListActivity"
+            android:label="@string/pair_title"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppDailogTheme" >
+        </activity>
+        <activity
+            android:name=".activity.FacebookShareActivity"
+            android:label="@string/facebook_share_title"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppThemeLight" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.AlertDialogActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".provider.BraceletProvider"
+            android:authorities="com.fihtdc.smartbracelet.provider" />
+
+        <receiver
+            android:name=".receiver.BraceletReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.deskclock.ALARM_ALERT" />
+                <!--
+                <action android:name="alarm_killed" />
+                <action android:name="cancel_snooze" />                -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+            <!-- receive the coming email action,but have pr,now remove them -->
+            <!--
+            <intent-filter>
+                <action android:name="com.android.email.MESSAGE_LIST_DATASET_CHANGED" />
+                <action android:name="com.fihtdc.action.NEW_MAIL_LED_ON" />
+            </intent-filter>            -->
+            <!-- receive the new gmail action -->
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.PROVIDER_CHANGED"
+                    android:priority="-10" >
+                </action>
+
+                <data
+                    android:host="gmail-ls"
+                    android:pathPattern="/unread/.*"
+                    android:scheme="content" >
+                </data>
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.PROVIDER_CHANGED"
+                    android:priority="-10" >
+                </action>
+
+                <data
+                    android:host="gmail-ls"
+                    android:mimeType="*/*"
+                    android:path="/unread/^i"
+                    android:scheme="content" >
+                </data>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.fihtdc.smartbracelet.CheckGmail" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.fihtdc.smartbracelet.facebook.FaceBookService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="facebook.android.intent.action.CHECK_IN" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="facebook.android.intent.action.NOTIFICATION" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="facebook.android.intent.action.CLOSE_NOTIFICATION" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".service.BLEService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.fihtdc.smartbracelet.COMMAND_ACTION" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.fihtdc.smartbracelet.COMMAND_START" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.fihtdc.smartbracelet.COMMAND_RESET" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.fihtdc.smartbracelet.COMMAND_REBOOT_ACTION" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.android.camera.Camera"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:theme="@style/ThemeCamera"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="com.fihtdc.smartbracelet.CAMERA_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

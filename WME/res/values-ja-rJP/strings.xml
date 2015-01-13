@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">WMe</string>
+
+    <!-- facebook begin -->
+    <string name="applicationId">1404233603125231</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_loginview_log_out_button">ログアウト</string>
+    <string name="com_facebook_loginview_log_in_button">ログイン</string>
+    <string name="com_facebook_loginview_logged_in_as">としてログイン: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Facebookのを使用してログイン</string>
+    <string name="com_facebook_loginview_log_out_action">ログアウト</string>
+    <string name="com_facebook_loginview_log_out_message">ログアウトしますか？</string>
+    <string name="com_facebook_loginview_log_in_prompt_message">最初にログインしてください。</string>
+    <string name="com_facebook_loginview_cancel_action">キャンセル</string>
+    <string name="com_facebook_logo_content_description">Facebookのロゴ</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">ログイン&#8230;</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">ログインしました</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">ログインしていません</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d ここにいた</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d ここにいた</string>
+    <string name="com_facebook_picker_done_button_text">完了</string>
+    <string name="com_facebook_choose_friends">友達を選択してください</string>
+    <string name="com_facebook_nearby">近所の</string>
+    <string name="com_facebook_loading">積載\u2026</string>
+    <string name="network_unavaliable">ネットワーク利用できない</string>
+    <string name="com_facebook_requesterror_relogin">自分のFacebookのアカウントを再接続するには、もう一度このアプリにログインしてください。</string>
+    <string name="com_facebook_requesterror_password_changed">自分のFacebookのパスワードが変更されました。自分のFacebookのアカウントを再接続するには、もう一度このアプリにログインしてください。</string>
+    <string name="com_facebook_requesterror_reconnect">自分のFacebookのアカウントを再接続するには、もう一度このアプリにログインしてください。</string>
+    <string name="com_facebook_requesterror_permissions">このアプリは、これを行うための権限がありません。パーミッションを変更するには、もう一度アプリにログインしてみてください。</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifestエラー</string>
+    <string name="com_facebook_internet_permission_error_message">WebViewのログインはINTERNET権限が必要です。</string>
+    <string name="com_facebook_requesterror_web_login">自分のFacebookのアカウントがロックされています。継続するwww.facebook.comにログインしてください。</string>
+    <string name="facebook_features">Facebook 機能</string>
+    <string name="facebook_notification">通知</string>
+    <string name="facebook_checkin">W/Me でチェックイン</string>
+    <string name="facebook_checkin_me_here">ここにいます！</string>
+    <string name="facebook_checkintext">チェックイン テキスト</string>
+    <string name="facebook_checkin_control_prompt">制御スイッチにチェックを開いてください</string>
+    <string name="setting_network_open">私の場所へのオープンアクセスしてください</string>
+    <string name="facebook_share_message_prefix">" が W/Me を使用  @ "</string>
+    <string name="facebook_share_message_success">首尾よく共有</string>
+    <string name="facebook_share_message_fail">共有に失敗しました</string>
+    <!-- facebook end -->
+
+    <string name="configuration_title">設定</string>
+    <string name="welcome_title">W/Me へようこそ</string>
+    <string name="home_title">W&#047;Me</string>
+    <string name="profile_title">プロファイル</string>
+    <string name="settings_title">設定</string>
+    <string name="facebook_title">Facebook 設定</string>
+    <string name="aboutus_title">情報</string>
+    <string name="faq_title">お問合せ</string>
+    <string name="measure_title">測定</string>
+    <string name="coaching_title">コーチング</string>
+    <string name="history_title">履歴</string>
+    <string name="master_label">"こんにちは  %s, "</string>
+    <string name="start_label">開始しましょう</string>
+    <string name="guest_label">ゲスト</string>
+    <string name="tutorial_title">チュートリアル</string>
+    <string name="prompt_label">センサーに触れて、ホールドします\u2026</string>
+    <string name="prompt_label_better">受信向上のためにしっかりホールドしてください\u2026</string>
+    <string name="calm_label">落ち着いて\u2026</string>
+    <string name="measure_start_label">測定を開始します\u2026</string>
+    <string name="second_label">秒</string>
+    <string name="time_label">時間</string>
+    <string name="bpm_label">BPM</string>
+    <string name="time_format">"<xliff:g id="minute">%s</xliff:g>m<xliff:g id="second">%s</xliff:g>s"</string>
+    <string name="measuring_label">測定中\u2026</string>
+    <string name="guest_prompt_label">こんにちは, \n詳細あなたについて</string>
+    <string name="guest_start_label">開始</string>
+    <string name="passive_area_flag">消極的</string>
+    <string name="excitable_area_flag">興奮性</string>
+    <string name="pessimistic_area_flag">悲観的</string>
+    <string name="anxious_area_flag">心配性</string>
+    <string name="balanced_area_flag">安定性</string>
+    <string name="timeout_title">タイムアウト</string>
+    <string name="timeout_wait_long">待機時間が長すぎます。再起動してください！</string>
+    <string name="timeout_bluetooth">Bluetooth がタイムアウトしました。もう一度試行してください！</string>
+    <string name="signal_unstable">シグナルが不安定です</string>
+    <string name="hold_retrieve">ホールドして取得\u2026</string>
+    <string name="measure_continue">以下の後に続行されます %d 秒.</string>
+
+    <!-- Robin add strings begin -->
+    <string name="start">"開始"</string>
+    <string name="custom_level_txt">自分らしくカスタマイズ！</string>
+    <string name="pair_wme">W/Me のペアリング</string>
+    <string name="gmail">"Gmail"</string>
+    <string name="alarm">"アラーム"</string>
+    <string name="incoming_call">着信</string>
+    <string name="find_my_phone">ケータイお探し</string>
+    <string name="reset">設定をリセット</string>
+    <string name="facebook">"Facebook"</string>
+    <string name="reset_dialog_txt">全部の設定がリセットされ、W/Me アプリは再起動してウェルカム シナリオを実行します。続行するには [OK] をタップしてください。</string>
+    <string name="inhale">"息を吸う"</string>
+    <string name="exhale">"息を吐く"</string>
+    <string name="hold">"息を止る"</string>
+    <string name="upper_unit_sec">"Sec"</string>
+    <string name="cycles">"サイクル"</string>
+    <string name="times">タイムズ</string>
+    <string name="level_m">"レベル M"</string>
+    <string name="level">"レベル"</string>
+    <string name="sec">"秒"</string>
+    <string name="upper_cycle">"サイクル"</string>
+    <string name="hit">"ヒット"</string>
+    <string name="coaching_label">コーチング中\u2026</string>
+    <string name="complete">"完了！"</string>
+    <string name="summary_title">概要</string>
+    <string name="time">"時間"</string>
+    <string name="day">"非"</string>
+    <string name="hit_rate">"ヒット率"</string>
+    <string name="upper_inhale">"息を吸う"</string>
+    <string name="upper_hold">"息を止る"</string>
+    <string name="upper_exhale">"息を吐く"</string>
+    <!-- Robin add strings end -->
+
+
+    <!-- Danny add for chooser Dialog begin -->
+    <string name="profile_name_hint">名前：</string>
+    <string name="profile_gender_male">男性</string>
+    <string name="profile_gender_female">女性</string>
+    <string name="profile_unit_cm">センチ</string>
+    <string name="profile_unit_ft">ft</string>
+    <string name="profile_unit_in">in</string>
+    <string name="profile_unit_kg">キロ</string>
+    <string name="profile_unit_lb">ポンド</string>
+    <string name="profile_name_cannot_be_null">プロファイル名が空であるため、プロファイル情報は、保存されていません。</string>
+    <string name="profile_gender_cannot_be_null">性別が空であるため、プロファイル情報が保存されない。</string>
+    <string name="profile_height_cannot_be_null">高さが空であるため、プロファイル情報が保存されない。</string>
+    <string name="profile_weight_cannot_be_null">重量が空であるため、プロファイル情報が保存されていない。</string>
+    <string name="profile_birthday_cannot_be_null">誕生日が空であるため、プロファイル情報は、保存されていません。</string>
+    <string name="chooser_dialog_done">"完了"</string>
+    <string name="chooser_height_dialog_title">身長</string>
+    <string name="chooser_weight_dialog_title">体重</string>
+    <string name="chooser_birthday_dialog_title">誕生日</string>
+    <string name="profile_edit_prompt">アイコンを変更してください。有効な文字を入力したと、アイコンは点滅しなくなります。</string>
+    <string name="profile_not_complete_prompt">プロファイル設定を完了してから、続行してください。</string>
+    <string name="profile_complete_prompt">プロファイルは設定されました。W/Me デバイスのペアリングを開始、またはプロファイル編集を続けてください。</string>
+    <!-- Danny add for chooser Dialog end -->
+
+    <string name="suggestion_title">提案</string>
+    <string name="agility_label">敏捷性</string>
+    <string name="m_state_label">心の状態</string>
+    <string name="day_label">非</string>
+    <string name="measure_history_title">測定履歴</string>
+    <string name="coach_history_title">訓練履歴</string>
+    <string name="ans_age_label">ANS 年齢</string>
+    <string name="delete_title">削除</string>
+    <string name="delete_content">"削除 <xliff:g id="date">%s</xliff:g> @ <xliff:g id="time">%s</xliff:g>しますか？"</string>
+    <string name="begin_setup">設定の開始</string>
+    <string name="setup_content">W/Me の使用を開始するには、まずプロファイルを設定し、それからお使いの W/Me デバイスに接続します。下のボタンをタップして開始してください。</string>
+    <string name="welcome_label">へようこそ</string>
+    <string name="aboutus_version_title">アプリ バージョン：  %s</string>
+    <string name="aboutus_wme_version_title">デバイス バージョン：  %s</string>
+    <string name="aboutus_description">W/Me は Phyode により作成された\r\n最初の高度なインタラクティブ デバイスであり、\r\n呼吸までも可視化することができます。</string>
+
+    <!-- Paring string -->
+    <string name="pair_title">W/Me のペアリング</string>
+    <string name="forget_device_label">このデバイスを忘れる</string>
+    <string name="scan_device_label">W/Me デバイスのスキャン</string>
+    <string name="no_pair_device_hit">ペアリングされていないデバイス</string>
+    <string name="device_name_hit">W&#047;Me  - </string>
+    <string name="use_me_title">W/Me の使用開始！</string>
+    <string name="device_connect">W/Me 接続</string>
+    <string name="device_not_connect">W/Me 未接続</string>
+    <string name="pair_select_title">W/Me デバイスの選択</string>
+    <string name="pair_warning">T接続しないの場合は、まだ、[リスキャン] をクリックして、リストバンドのボタンを押しながらBT モードへスクロールします。</string>
+    <string name="button_pair_label">W/Me のペアリング</string>
+    <string name="button_edit_profile_label">プロファルの編集</string>
+    <string name="name_toast">タップして W/Me 名を変更</string>
+    <string name="open_bluetooth_toast">ブルートゥース機能を开けてください</string>
+    <string name="close_wifi_toast">Bluetooth接続がWi-Fiによって不安定になることがあり、私はあなたがそれをして、Bluetooth接続を試してオフにお勧めします。</string>
+    <string name="close_wifi">クローズ</string>
+    <string name="turnoff_wifi_notification">Wi-Fi回線をオフにする</string>
+
+    <!-- FAQ String -->
+    <string name="faq_question1">1.W/Me とは？</string>
+    <string name="faq_question2">2.敏捷性スコアとは？</string>
+    <string name="faq_question3">3.毎日、W/Me を使用する利点は何ですか？</string>
+    <string name="faq_question4">4.なぜ測定に 3 分、かかるのですか？</string>
+    <string name="faq_question5">5.呼吸の練習を始める方法は？</string>
+    <string name="faq_question6">6.リズミカルな呼吸を行うための効果的な方法は？</string>
+    <string name="faq_question7">7.リズミカルな呼吸はなぜ重要なのですか？それは私にどんな利点をもたらしますか？</string>
+    <string name="faq_question8">8.HRV とは？</string>
+    <string name="faq_question9">9.自律神経系 (ANS) とは？</string>
+    <string name="faq_question1_answer">W/Me は、いつでもどこでも、体と心の状態を測定することができます。\r\nW/Me は心拍数の変動 (HRV) をデジタルに測定。そのアルゴリズムによって、自律神経系 (ANS) の敏捷性を推定します。\r\n\r\nW/Me は以下が可能です：\r\n感受性を測定\r\nANS の敏捷性を測定\r\nリズミカルな呼吸を指導\r\nあなたの携帯の位置情報を取得\r\nFacebook にチェックイン\r\nリモートのカメラトリガー\r\nEメール アラート\r\nデバイス範囲外アラート</string>
+    <string name="faq_question2_answer">敏捷性スコアは、心拍数の変動と身体の安定性との相関関係を表します。スコアが高ければ高いほど、あなたはストレスに強いということになります。低いスコアは、免疫システムが弱いこと、またはストレスに対して敏感であることに関連していると考えられます。</string>
+    <string name="faq_question3_answer">一般的な健康診断と同様に、W/Me を定期的に利用することで、予防的なケアが期待できます。健康を維持し理解することは、生活の質を向上すると同時にヘルスケアにかかるコストを削減する上でも重要です。\r\n心身は、さまざまな段階を通じて劇的に変化します。それをしっかりと監視することで、人生において十分な情報を踏まえて判断ができるようになります。\n\n医療業界は、個人の活力を測るベースラインとして HRV を使用しています。HRV は、個人の身体的および精神的な状態を測定する指標です。ストレスへの適応力を表します。また、生物学的な老化の指標としても使用されています。</string>
+    <string name="faq_question4_answer">周波数スペクトラムを正確に表すために、W/Me およそ 3 分でライフスペクトラム アナライザーで使用するデータを収集します。それは、1 分あたりの心拍数 (BPM) などといった単純な測定に終わらず、非常に複雑な過程を経ます。</string>
+    <string name="faq_question5_answer">リズミカルな呼吸の 4 つのステップ\r\n\r\n1.場所：\r\n\r\n落ち着ける場所を探し、アプリを起動します。\r\n\r\n2.姿勢：\r\n\r\nリズミカルな呼吸ルーチンを最大化する基礎は、姿勢です。座りながらでも、立ちながらでも練習できます。もっとも重要なのは、背筋を必ずまっすぐに伸ばし、しっかり前を向くことです。\r\n\r\n3.リラックス：\n\nリラックスします。上から順々に、眉付近、首、肩、腕、手、脚、そしてつま先まで筋肉をリラックスさせていきましょう。\r\n\r\n体に入り、また体から出ていく空気に集中します。\r\n\r\nコーチングアプリに従って、息を吸って吐いての間隔をコントロールします。\r\n\r\n調子をつかむと、あなたの体はリラックスをし、ストレスから解放されていきます。\r\n\r\n4.コーチング\n\nコーチング アプリのリズムに従います。ゆっくりと息を吸って、ゆっくりと息を吐きます。LSA は、あなたが指導にしたがってサイクルを完了したかを検知します。腹部を使うことを忘れずに！体から出ていく空気に集中しましょう。</string>
+    <string name="faq_question6_answer">腹式呼吸は、リラックスしてストレスを軽減し、心と体に調和をもたらす効果的な方法です。定期的に腹式呼吸を練習することで、日々のエネルギーレベルの向上が期待できます。アプリを使用して、お試しください。腹式呼吸は、腹部で息を吸っているかのように呼吸をして行います。腹部の筋肉を拡張して息を吸います。そして、腹部の筋肉を収縮させて息を吐きます。</string>
+    <string name="faq_question7_answer">自立神経系は、呼吸を含む身体の非自発的な機能を司ります。呼吸は、意識的に制御することができる、数少ない非自発的機能のひとつです。リズミカルな呼吸こそが、あなたの体の内部のバランスをとるための第一歩です。リズミカルな呼吸は、心臓が調和のとれたリズムを刻むのを助けます。</string>
+    <string name="faq_question8_answer">心拍数の変動 (HRV) は、拍動の間隔におけるばらつきで、生理学的現象です。拍動と拍動の間隔のばらつきが測定されます。幾年にもおよぶ医学研究や複雑なアルゴリズムを基にして、心拍数の変動から、多くの情報を推定することができます。そして W/Me は、あなたが身体的、精神的にどのような状態にあるかを知らせます。</string>
+    <string name="faq_question9_answer">自立神経系 (ANS) は、心拍、血圧、体温、呼吸、そして消化といった非自発的な身体活動の大部分を司ります。ANS は、延髄と呼ばれる脳の部分に位置しています。ANS の機能性の維持は、予防的医学における主要な課題です。ANS は、概して 2 系統に分かれます。交感神経と副交感神経です。</string>
+
+    <!-- Suggestion String -->
+    <string name="suggestion_ans_end">\r\n自律神経系 (ANS) 年齢は心拍数変動 (HRV) に基づきます。ANS 年齢は、あなたの HRV と、データベースに登録された年齢層ごとの平均的な HRV とを照合して決められます。この年齢層があなたの ANS 年齢となります。基本的に、同じ HRV を持った人々の集合体です。心配や緊張、消化不良、過負荷、外からのプレッシャー、病、うつなどによって、ANS 年齢は実際の年齢よりも上になる場合があります。</string>
+    <string name="suggestion_bpm">心拍数とは、一定時間内における拍動の数であり、通常 1 分間あたりの拍動の数 (BPM) で表されます。全体的な心臓と肺の状態を反映します。通常大人の心拍数は 60 から 100 BPM です。平均の心拍数は 72 BPM ほどです。運動選手の間では 60 BPM を下回る心拍数も珍しくありません。</string>
+
+    <!-- facebook share -->
+    <string name="facebook_button">Facebook に投稿</string>
+    <string name="facebook_message">メッセージをこちらに入力&#8230;</string>
+    <string name="facebook_share_title">共有</string>
+    <string name="wait_message">しばらくお待ちください\u2026</string>
+
+    <!-- wme welcom -->
+    <string name="health_guide_1">測定センターへようこそ！</string>
+    <string name="health_guide_2">こんにちは,\r\n落ち着いて、自然に呼吸をしてください。W/Me が、あなたの心拍数の変動に基づき、状態を測定し分析します。\r\n測定の所要時間はたった数分です。画面をスライドして、説明を表示してください。</string>
+    <string name="health_guide_3">呼吸に伴って、波線が上がったり下がったりします。</string>
+    <string name="health_guide_4">W/Me センサーによるリアルタイムのボディシグナルです。</string>
+    <string name="health_guide_5">測定が完了するまでの残り時間は、こちらに表示されます。</string>
+    <string name="health_guide_6">心拍数は、リアルタイムでこちらに表示されます。</string>
+    <string name="health_guide_7">測定ステータス：緑は安定を表すシグナル、赤はリラックスして落ち着くように促すシグナルです。</string>
+    <string name="health_guide_8">コーチングセンターへようこそ！</string>
+    <string name="health_guide_9">腹式呼吸を練習するためのレベルは 5 つ設定されており、またプログラム可能なレベルが 1 つ用意されています。\r\n各レベルは、異なる呼吸リズムにより定義されています。レベルが高いほど、呼吸速度をゆっくりにする必要があります。</string>
+    <string name="health_guide_10">クジラのコーチ、アトゥのリズムにのって、呼吸のペースをつかみ、自分にあったレベルを見つけることができます。\r\n画面をスライドしてください。私たちのコーチ、クジラのアトゥをご紹介します！</string>
+    <string name="health_guide_11">こんにちは！コーチのアトゥです！\r\n私のリズムに従って、呼吸を整えてください。</string>
+    <string name="health_guide_12">私が水面に上昇するときは、息を吸います。\r\n私が水面に上がったら、息を止めます！</string>
+    <string name="health_guide_13">海にもぐっていったら、息を吐きます。\r\nそして次のラウンドに備えます。</string>
+    <string name="health_guide_14">それだけ！簡単でしょう？\r\n画面をスライドすると、コーチング画面の詳細が表示されます。</string>
+    <string name="health_guide_16">練習が完了するまでの残りのサイクルは、こちらに表示されます。</string>
+    <string name="health_guide_17">1 サイクルあたりの回数です。</string>
+    <string name="health_guide_18">コーチングステータス：緑は安定を表すシグナル、赤はリラックスして落ち着くように促すシグナルです。</string>
+
+</resources>

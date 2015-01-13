@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/health_guide2_08_image"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp"
+    android:paddingRight="15dp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center"
+        android:maxLines="3"
+        android:text="@string/health_guide_16"
+        android:textColor="@android:color/white"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3" />
+
+</LinearLayout>

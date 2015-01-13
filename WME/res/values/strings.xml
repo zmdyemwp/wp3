@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">WMe</string>
+
+    <!-- facebook begin -->
+    <string name="applicationId">1404233603125231</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_loginview_log_out_button">Log Out</string>
+    <string name="com_facebook_loginview_log_in_button">Log In</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log Out</string>
+    <string name="com_facebook_loginview_log_out_message">Are you sure to log out?</string>
+    <string name="com_facebook_loginview_log_in_prompt_message">Please log in first.</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log In&#8230;</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged In</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not Logged In</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_loading">Loading\u2026</string>
+    <string name="network_unavaliable">Network unavailable</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission.</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="facebook_features">Facebook features</string>
+    <string name="facebook_notification">Notification</string>
+    <string name="facebook_checkin">Check in by W&#047;Me</string>
+    <string name="facebook_checkin_me_here">I am here!</string>
+    <string name="facebook_checkintext">Check-in text</string>
+    <string name="facebook_checkin_control_prompt">Please open the check in control switch.</string>
+    <string name="setting_network_open">Please open access to my location.</string>
+    <string name="facebook_share_message_prefix">" used W/Me @ "</string>
+    <string name="facebook_share_message_success">Share successfully!</string>
+    <string name="facebook_share_message_fail">Share failed!</string>
+    <!-- facebook end -->
+
+    <string name="configuration_title">CONFIGURATION</string>
+    <string name="welcome_title">Welcome to W&#047;Me</string>
+    <string name="home_title">W&#047;Me</string>
+    <string name="profile_title">PROFILE</string>
+    <string name="settings_title">SETTINGS</string>
+    <string name="facebook_title">FACEBOOK SETTING</string>
+    <string name="aboutus_title">ABOUT US</string>
+    <string name="faq_title">FAQ</string>
+    <string name="measure_title">MEASURE</string>
+    <string name="coaching_title">COACHING</string>
+    <string name="history_title">HISTORY</string>
+    <string name="master_label">"Hi %s, "</string>
+    <string name="start_label">LET\'S START</string>
+    <string name="guest_label">GUEST</string>
+    <string name="tutorial_title">TUTORIAL</string>
+    <string name="prompt_label">Touch the sensor and hold steady\u2026</string>
+    <string name="prompt_label_better">Please hold steady for better reception\u2026</string>
+    <string name="calm_label">Stay calm\u2026</string>
+    <string name="measure_start_label">The measurement is about to start\u2026</string>
+    <string name="second_label">sec.</string>
+    <string name="time_label">TIME</string>
+    <string name="bpm_label">BPM</string>
+    <string name="time_format">"<xliff:g id="minute">%s</xliff:g>m<xliff:g id="second">%s</xliff:g>s"</string>
+    <string name="measuring_label">Measuring in progress\u2026</string>
+    <string name="guest_prompt_label">Hi there, \nTell me more about yourself.</string>
+    <string name="guest_start_label">START</string>
+    <string name="passive_area_flag">Passive</string>
+    <string name="excitable_area_flag">Excitable</string>
+    <string name="pessimistic_area_flag">Pessimistic</string>
+    <string name="anxious_area_flag">Anxious</string>
+    <string name="balanced_area_flag">Balanced</string>
+    <string name="timeout_title">Timeout</string>
+    <string name="timeout_wait_long">Wait too long, please restart!</string>
+    <string name="timeout_bluetooth">Bluetooth timeout, please try again!</string>
+    <string name="signal_unstable">Signal is unstable.</string>
+    <string name="hold_retrieve">Hold steady to retrieve\u2026</string>
+    <string name="measure_continue">Will continue in %d sec.</string>
+
+    <!-- Robin add strings begin -->
+    <string name="start">"Start"</string>
+    <string name="custom_level_txt">"Customize your way!"</string>
+    <string name="pair_wme">"Pair W&#047;Me"</string>
+    <string name="gmail">"Gmail"</string>
+    <string name="alarm">"Alarm"</string>
+    <string name="incoming_call">"Incoming call"</string>
+    <string name="find_my_phone">"Find my phone"</string>
+    <string name="reset">"Reset all settings"</string>
+    <string name="facebook">"Facebook"</string>
+    <string name="reset_dialog_txt">"All settings will be reset to default and W&#047;Me app will be restarted to run Welcome scenario. Please tap OK to proceed."</string>
+    <string name="inhale">"Inhale"</string>
+    <string name="exhale">"Exhale"</string>
+    <string name="hold">"Hold"</string>
+    <string name="upper_unit_sec">"Sec"</string>
+    <string name="cycles">"Cycles"</string>
+    <string name="times">"Times"</string>
+    <string name="level_m">"LEVEL M"</string>
+    <string name="level">"LEVEL"</string>
+    <string name="sec">"sec"</string>
+    <string name="upper_cycle">"CYCLE"</string>
+    <string name="hit">"HIT"</string>
+    <string name="coaching_label">Coaching in progress\u2026</string>
+    <string name="complete">"COMPLETE!"</string>
+    <string name="summary_title">"SUMMARY"</string>
+    <string name="time">"TIME"</string>
+    <string name="day">"DAY"</string>
+    <string name="hit_rate">"HIT RATE"</string>
+    <string name="upper_inhale">"INHALE"</string>
+    <string name="upper_hold">"HOLD"</string>
+    <string name="upper_exhale">"EXHALE"</string>
+    <!-- Robin add strings end -->
+
+
+    <!-- Danny add for chooser Dialog begin -->
+    <string name="profile_name_hint">Name:</string>
+    <string name="profile_gender_male">Male</string>
+    <string name="profile_gender_female">Female</string>
+    <string name="profile_unit_cm">cm</string>
+    <string name="profile_unit_in">in</string>
+    <string name="profile_unit_ft">ft</string>
+    <string name="profile_unit_kg">kg</string>
+    <string name="profile_unit_lb">lb</string>
+    <string name="profile_name_cannot_be_null">Profile information is not be saved, because profile name is empty.</string>
+    <string name="profile_gender_cannot_be_null">Profile information is not be saved, because gender is empty.</string>
+    <string name="profile_height_cannot_be_null">Profile information is not be saved, because height is empty.</string>
+    <string name="profile_weight_cannot_be_null">Profile information is not be saved, because weight is empty.</string>
+    <string name="profile_birthday_cannot_be_null">Profile information is not be saved, because birthday is empty.</string>
+    <string name="chooser_dialog_done">"Done"</string>
+    <string name="chooser_height_dialog_title">"Input Height"</string>
+    <string name="chooser_weight_dialog_title">"Input Weight"</string>
+    <string name="chooser_birthday_dialog_title">"Input Birthday"</string>
+    <string name="profile_edit_prompt">Please tap the icons to make change. Icons will stop flashing once valid input is done.</string>
+    <string name="profile_not_complete_prompt">Please complete profile setting before proceeding.</string>
+    <string name="profile_complete_prompt">Your profile is set. Please proceed to pair W&#047;Me device or continue editing profile.</string>
+    <!-- Danny add for chooser Dialog end -->
+
+    <string name="suggestion_title">SUGGESTION</string>
+    <string name="agility_label">AGILITY</string>
+    <string name="m_state_label">M.STATE</string>
+    <string name="day_label">DAY</string>
+    <string name="measure_history_title">MEASURE HISTORY</string>
+    <string name="coach_history_title">COACHING HISTORY</string>
+    <string name="ans_age_label">ANS AGE</string>
+    <string name="delete_title">Delete</string>
+    <string name="delete_content">"Delete history on <xliff:g id="date">%s</xliff:g> @ <xliff:g id="time">%s</xliff:g>?"</string>
+    <string name="begin_setup">Begin to Set Up</string>
+    <string name="setup_content">"To start using W&#047;Me, first setup your profile and then connect to your W&#047;Me device. Please tap the below button to begin."</string>
+    <string name="welcome_label">Welcome to</string>
+    <string name="aboutus_version_title">W&#047;Me app version:  %s</string>
+    <string name="aboutus_wme_version_title">W&#047;Me wristband version:  %s</string>
+    <string name="aboutus_description">W&#047;Me is created by Phyode, it\'s our 1st highly interactive deviceand can even visualize breathing.</string>
+
+    <!-- Paring string -->
+    <string name="pair_title">PAIR W&#047;Me</string>
+    <string name="forget_device_label">Forget this device</string>
+    <string name="scan_device_label">Scan for W&#047;Me device</string>
+    <string name="no_pair_device_hit">No paired device</string>
+    <string name="device_name_hit">W&#047;Me  - </string>
+    <string name="use_me_title">Start using W&#047;Me!</string>
+    <string name="device_connect">W&#047;Me connected</string>
+    <string name="device_not_connect">W&#047;Me NOT connected</string>
+    <string name="pair_select_title">Select W&#047;Me devices</string>
+    <string name="pair_warning">Tab rescan button and press key on WME devices if it is not found for long time.</string>
+    <string name="button_pair_label">Pair W&#047;Me</string>
+    <string name="button_edit_profile_label">Edit Profile</string>
+    <string name="name_toast">Tap to change W&#047;Me name</string>
+    <string name="open_bluetooth_toast">Please open the bluetooth function</string>
+    <string name="close_wifi_toast">Bluetooth connection may cause instability by Wi-Fi, I suggest you turn off it then try Bluetooth connection.</string>
+    <string name="close_wifi">OFF</string>
+    <string name="turnoff_wifi_notification">Wi-Fi will be disabled temporarily during measuring.</string>
+
+    <!-- FAQ String -->
+    <string name="faq_question1">1. What is W&#047;Me?</string>
+    <string name="faq_question2">2. What is the Agility Score?</string>
+    <string name="faq_question3">3. Why should I use W&#047;Me everyday?</string>
+    <string name="faq_question4">4. Why does the measurement take 3 minutes?</string>
+    <string name="faq_question5">5. How do I start breathing exercises?</string>
+    <string name="faq_question6">6. What is the most effective way to do rhythmic breathing?</string>
+    <string name="faq_question7">7. What is the importance of rhythmic breathing and what\'s in it for me?</string>
+    <string name="faq_question8">8. What is HRV?</string>
+    <string name="faq_question9">9. What is Autonomic Nervous System(ANS)?</string>
+    <string name="faq_question1_answer">W/Me can measure your physical and mental state on the go.\r\nW/Me digitally measures your heart rate variability (HRV). with our algorithm it can infer your Autonomic Nervous System (ANS) agility.\r\n\r\nW/Me can:\r\nMeasure emotional susceptibility\r\nMeasure ANS agility\r\nCoach rhythmic breathing exercises\r\nLocate your phone\r\nCheck in on facebook\r\nRemote camera trigger\r\nGmail alert\r\nDevice out of range alert</string>
+    <string name="faq_question2_answer">The agility score represents the correlation between the heart rate variation and body stability. The higher the score, the more resilient you are to stress. Lower scores may correlate to weaker immune system and higher susceptibility to stress.</string>
+    <string name="faq_question3_answer">Similar to general health exams, using W/Me on a regular basis provides personal preventative care. The importance of regular maintenance and understanding your health ensures quality of life as well as reduces the cost of healthcare.\r\nThe body shifts dynamically through different states, close monitoring gives you the ability to make informed decisions for your lifestyle.\r\nThe medical industry uses HRV as a baseline measurement for a persons vitality. It is used as an indicator to measure a persons physical and mental state. HRV reflects our adaptability to stress. HRV is also a index used for biological aging.</string>
+    <string name="faq_question4_answer">In order to get an accurate representation of  the frequency spectrum, W&#047;Me takes approximately 3 minutes to collect data using the life spectrum analyzer. It is a lot more complicated than simple measurements like the heart\'s beats per minute (BPM).</string>
+    <string name="faq_question5_answer">Four Steps for Rhythmic Breathing\r\n(1). Location:\r\nFind a comfortable environment and launch the app.\r\n(2). Posture:\r\n Posture is the foundation of maximizing your rhythmic breathing routine. You can be practice it while sitting or standing. The most important thing is to make sure your spine is straight and raise your head.\r\n(3). Relax:\r\nRelax your body, starting from the top; release your muscles from your eyebrows, neck, shoulders , arms, hands, legs and down to your toes.\r\nConcentrate on the flow of air entering and exiting your body.\r\nControl your inhale and exhale intervals by referring to the coaching app.\r\nwhen you get into the swing of it, your body will begin to relax, your body is starting to de-stress\r\n(4). Coaching\r\nFollow the rhythm in our coaching app. breath in slowly and exhale slowly. The LSA can detect whether or not you have completed the cycle per our guidance. Don\'t forget to use your abdomen!! Concentrate on the air flowing out from your body.</string>
+    <string name="faq_question6_answer">Abdominal breathing is an effective way to stimulate the relaxation response to reduce stress and bring the body into a harmonic state. Your day to day energy level may be increased if you practice abdominal breathing techniques on a regular basis, try doing it with our app. Abdominal breathing is done by breathing as if you were inhaling from your abdominal area. Try to inhale by expansion of your abdominal muscles. Exhale by contracting your abdominal muscles.</string>
+    <string name="faq_question7_answer">The autonomic nervous system controls the involuntary functions of the body, including breathing. Breathing is one of the few involuntary functions that can be controlled consciously. Rhythmic breathing is the first step to balance your body\'s inner workings Rhythmic breathing can facilitate a more harmonic heart rhythm.</string>
+    <string name="faq_question8_answer">Heart rate variability (HRV) is the physiological phenomenon of variation in the time interval between heartbeats. It is measured by the variation in the beat-to-beat interval. Based on years of medical research and complex algorithms, a lot of information can be deduced from the heart rate variation. W/Me, lets you know how you are doing physically and emotionally.</string>
+    <string name="faq_question9_answer">The Autonomic Nervous System (ANS) controls the majority of our involuntary physical activities; heartbeat, blood pressure, body temperature, breathing and gastrointestinal motility. The ANS is located in the are of the brain called, medulla oblongata. It is the primary issue of preventative medicine to maintain the functionalities of ANS. The ANS is generally divided into two systems. the sympathetic nervous system and the parasympathetic nervous system.</string>
+
+    <!-- Suggestion String -->
+    <string name="suggestion_ans_end">\r\nYour autonomic nervous system (ANS) age is based on your heart rate variability (HRV). Your ANS age is determined by taking your HRV and matching it with the average HRV of an age group in our database; this age group is your ANS age. It is essentially the age group of others that have the same average HRV. You may have an ANS age that is older than your actual age because of anxiety, hypertension, digestive disturbances, overloading, outside pressure, illness, depression, and so on.</string>
+    <string name="suggestion_bpm">"Heart rate is the number of heart beats per unit of time, typically expressed in beats per minute (BPM). It reflects your overall heart and lung condition. Normal adult heart rates range from 60 to 100 BPM. An average heart rate is about 72 BPM. Heart rates below 60 BPM are common amongst athletes."</string>
+
+    <!-- facebook share -->
+    <string name="facebook_button">POST ON FACEBOOK</string>
+    <string name="facebook_message">Leave your message here &#8230;</string>
+    <string name="facebook_share_title">SHARE</string>
+    <string name="wait_message">Please wait\u2026</string>
+
+    <!-- wme welcom -->
+    <string name="health_guide_1">Welcome to \r\nMeasurement Center!</string>
+    <string name="health_guide_2">Hi there,\r\nStay calm and breathe naturally for W/Me to measure and analyze your condition based on your heart rate variability.\r\nIt only takes a few minutes to complete the measurement. Please slide the screen to see the display descriptions.</string>
+    <string name="health_guide_3">The wave will rise and fall according to your breathing.</string>
+    <string name="health_guide_4">Your realtime body signal from W&#047;Me sensor.</string>
+    <string name="health_guide_5">The remaining time to finish the measurement is displayed here.</string>
+    <string name="health_guide_6">Your heart beat rate is displayed here in realtime.</string>
+    <string name="health_guide_7">Your measuring status: Green signifies a stable signal, and red means that you need to hold steady and stay calm.</string>
+    <string name="health_guide_8">Welcome to \r\nCoaching Center!</string>
+    <string name="health_guide_9">We have designed 5 different levels and 1 programmable level for you to practice your abdominal breathing.\r\nEach level is defined by a different breathing rhythm. The higher the level, the slower your breathing needs to be.</string>
+    <string name="health_guide_10">By following the rhythm of your whale coach Attu, you can pace your breathing and complete the level that you feel comfortable with.\r\nPlease slide the screen to meet our coach, Attu the whale!</string>
+    <string name="health_guide_11">Hi! I\'m your coach, Attu!\r\nPace your breathing by following my rhythm.</string>
+    <string name="health_guide_12">When I rise to surface, inhale.\r\nWhen I reach the surface, hold your breath!</string>
+    <string name="health_guide_13">When I sink to the bottom, exhale.\r\nAnd get ready for the next round.</string>
+    <string name="health_guide_14">That\'s it! Easy, right?\r\nPlease slide the screen to learn more about the coaching screen.</string>
+    <string name="health_guide_16">The remaining cycles to finish the practice is displayed here.</string>
+    <string name="health_guide_17">The number of following through a cycle.</string>
+    <string name="health_guide_18">Your coaching status: Green signifies a stable signal, and red means that you need to hold steady and stay calm.</string>
+
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/agilityLayout"
+    android:orientation="vertical">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/health_history_agility_bg_frame"
+        android:layout_marginLeft="@dimen/history_frame_margin_horizontal"
+        android:layout_marginRight="@dimen/history_frame_margin_horizontal">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="15dip">
+
+            <TextView android:id="@+id/date" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF43C2CB"
+                android:textSize="@dimen/history_time_text_size"/>
+            
+            <TextView android:id="@+id/time" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:textColor="#FF43C2CB"
+                android:textSize="@dimen/history_time_text_size"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp">
+            
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="35dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:text="@string/agility_label"
+                    android:textColor="#FF8DD2D1"
+                    android:textSize="@dimen/history_label_text_size"
+                    android:layout_marginTop="5dip"/>
+
+                <TextView
+                    android:id="@+id/agility_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="@dimen/history_value_text_size"
+                    android:layout_marginTop="-10dip"/>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="35dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ans_age_label"
+                    android:textColor="#FF8DD2D1"
+                    android:textSize="@dimen/history_label_text_size"
+                    android:layout_marginTop="5dip"/>
+
+                <TextView
+                    android:id="@+id/ans_age_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="@dimen/history_value_text_size"
+                    android:layout_marginTop="-10dip"/>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bpm_label" 
+                    android:textColor="#FF8DD2D1"
+                    android:textSize="@dimen/history_label_text_size"
+                    android:layout_marginTop="5dip"/>
+
+                <TextView
+                    android:id="@+id/bpm_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="@dimen/history_value_text_size"
+                    android:layout_marginTop="-10dip"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <com.fihtdc.smartbracelet.view.HistogramView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:id="@+id/agilityHistogramView"/>
+
+</LinearLayout>

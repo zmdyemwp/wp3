@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fihtdc.smartbracelet.view.StatusView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom"
+    android:background="#094975"
+    android:gravity="center_vertical"
+    android:paddingBottom="5dip"
+    android:paddingLeft="15dip"
+    android:paddingRight="15dip"
+    android:paddingTop="5dip" >
+
+    <ImageView
+        android:id="@+id/status_stop_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/health_measure_schedule_ic_white" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/status_resume_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:src="@drawable/health_measure_schedule_ic_white" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/status_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:paddingLeft="15dip"
+        android:singleLine="true"
+        android:textColor="@color/measure_status_text_color"
+        android:textSize="@dimen/measure_label_text_size" />
+
+</com.fihtdc.smartbracelet.view.StatusView>

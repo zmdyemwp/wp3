@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/prepare_wave_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true" >
+
+    <ImageView
+        android:id="@+id/wave_prepare_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/measure_wave_above_margin_top"
+        android:scaleType="fitXY"
+        android:src="@drawable/health_measure_wavesbottom_ic" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/wave_prepare_dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/measure_wave_dark_margin_top"
+        android:scaleType="fitXY"
+        android:src="@drawable/health_measure_wavesabove_dark_ic" >
+    </ImageView>
+
+</RelativeLayout>

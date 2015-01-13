@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dip"
+    android:layout_marginRight="30dip"
+    android:layout_marginTop="30dip"
+    android:orientation="vertical" >
+
+    <com.fihtdc.smartbracelet.view.AnimatedViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/device_name_hit"
+            android:textColor="@android:color/white"
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:digits="0123465789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:imeOptions="actionDone"
+            android:maxLength="12"
+            android:singleLine="true"
+            android:textSize="24dp" />
+    </com.fihtdc.smartbracelet.view.AnimatedViewGroup>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#488c8d"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/forgetButton"
+        style="@style/MeasureLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dip"
+        android:onClick="onClick"
+        android:text="@string/forget_device_label"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/scanButton"
+        style="@style/MeasureLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dip"
+        android:onClick="onClick"
+        android:text="@string/scan_device_label"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/useMEButton"
+        style="@style/MeasureLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="@string/use_me_title"
+        android:visibility="gone" />
+
+</LinearLayout>

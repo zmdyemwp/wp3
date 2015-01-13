@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="custom_inhale">
+        <item>3秒</item>
+        <item>4秒</item>
+        <item>5秒</item>
+        <item>6秒</item>
+        <item>7秒</item>
+        <item>8秒</item>
+    </array>
+    <array name="custom_hold">
+        <item>1秒</item>
+        <item>2秒</item>
+        <item>3秒</item>
+        <item>4秒</item>
+        <item>5秒</item>
+    </array>
+    <array name="custom_exhale">
+        <item>6秒</item>
+        <item>7秒</item>
+        <item>8秒</item>
+        <item>9秒</item>
+        <item>10秒</item>
+        <item>11秒</item>
+        <item>12秒</item>
+        <item>13秒</item>
+        <item>14秒</item>
+        <item>15秒</item>
+    </array>
+
+    <string-array name="agility_level">
+        <item>恭喜您！您的活力分數高達 %1$d，處於極佳的狀態！請繼續保持，並記得使用我們的呼吸訓練，提高分數。活力分數屬於綜合指數，包括自律神經系統(ANS)年齡與每分鐘心跳數(BPM)。您的ANS年齡是%2$d, %3$s。您的心跳BPM 是%4$d。平均值為每分鐘72下。</item>
+        <item>您的活力分數是 %1$d。活力分數屬於綜合指數，包括自律神經系統(ANS)年齡與每分鐘心跳數(BPM)。您的ANS年齡是%2$d, %3$s。您的心跳BPM是%4$d，平均值為每分鐘72下。使用我們的韻律呼吸訓練，提高分數。</item>
+        <item>您的活力分數是 %1$d。活力分數屬於綜合指數，包括自律神經系統(ANS)年齡與每分鐘心跳數(BPM)。您的ANS年齡是%2$d, %3$s。您的心跳BPM 是%4$d，平均值為每分鐘72下。我們非常建議您定期使用我們的呼吸訓練，提高分數。</item>
+    </string-array>
+    <string-array name="agility_level_age">
+        <item>與您的實際年齡相當</item>
+        <item>比您的實際年齡還高</item>
+        <item>因為比您的實際年齡還年輕，所以還算不錯</item>
+    </string-array>
+    <string-array name="ans_level">
+        <item>恭喜您！您的自律神經系統(ANS)年齡與實際年齡相當。請記得使用我們的呼吸訓練，保持年輕的 ANS年齡，永保健康！</item>
+        <item>恭喜您！您的自律神經系統(ANS)年齡是 %1$s。 請記得使用我們的呼吸訓練，保持年輕的 ANS年齡，永保健康！</item>
+        <item>%1$d 的自律神經系統(ANS)年齡是%2$s。我們非常建議您定期使用我們的呼吸訓練，以改善您的ANS年齡。</item>
+    </string-array>
+    <string-array name="ans_level_age">
+        <item>比您的實際年齡大1歲</item>
+        <item>比您的實際年齡高 %d 歲</item>
+        <item>比您的實際年齡年輕一歲</item>
+        <item>比您的實際年齡年輕 %d 歲</item>
+    </string-array>
+
+</resources>

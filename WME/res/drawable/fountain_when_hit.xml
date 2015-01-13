@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0" android:drawable="@drawable/health_whale_image_01" />
+    <item android:maxLevel="1"> 
+        <animation-list android:oneshot="true" >
+            <item android:drawable="@drawable/health_whale_image_01" android:duration="150"/>
+            <item android:drawable="@drawable/health_whale_image" android:duration="150"/>
+            <item android:drawable="@drawable/health_whale_image_06" android:duration="150"/>
+        </animation-list>
+    </item>
+    
+</level-list>

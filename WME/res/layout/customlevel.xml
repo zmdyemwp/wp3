@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/health_main_bg_02" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/custom_level_name_text_size"
+        android:layout_marginTop="20dp"
+        android:text="@string/level_m"
+        android:textStyle="bold"
+        android:textColor="@color/button_text_color"
+        android:layout_gravity="center_horizontal"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/indicator_text_size"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/button_text_color"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:text="@string/custom_level_txt"/>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/custom_top1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <include android:id="@+id/param_cycle"
+            layout="@layout/custom_level_param_item"/>
+        <include android:id="@+id/param_inhale"
+            layout="@layout/custom_level_param_item"/>
+        <include android:id="@+id/param_hold"
+            layout="@layout/custom_level_param_item"/>
+        <include android:id="@+id/param_exhale"
+            layout="@layout/custom_level_param_item"/>
+    </LinearLayout>
+    <!-- the follow layout show picker -->
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal">
+        <com.fihtdc.smartbracelet.wheel.WheelView
+            android:id="@+id/cycle_wheel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <com.fihtdc.smartbracelet.wheel.WheelView
+            android:id="@+id/inhale_wheel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <com.fihtdc.smartbracelet.wheel.WheelView
+            android:id="@+id/hold_wheel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <com.fihtdc.smartbracelet.wheel.WheelView
+            android:id="@+id/exhale_wheel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <!-- the start button -->
+    <Button android:id="@+id/startBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="@dimen/custom_top2"
+        android:text="@string/start"
+        style="@style/AppButton"
+        android:textStyle="bold"
+        android:textSize="@dimen/start_button_text_size">
+    </Button>
+</LinearLayout>

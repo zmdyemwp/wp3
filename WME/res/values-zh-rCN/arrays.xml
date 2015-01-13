@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="custom_inhale">
+        <item>3秒</item>
+        <item>4秒</item>
+        <item>5秒</item>
+        <item>6秒</item>
+        <item>7秒</item>
+        <item>8秒</item>
+    </array>
+    <array name="custom_hold">
+        <item>1秒</item>
+        <item>2秒</item>
+        <item>3秒</item>
+        <item>4秒</item>
+        <item>5秒</item>
+    </array>
+    <array name="custom_exhale">
+        <item>6秒</item>
+        <item>7秒</item>
+        <item>8秒</item>
+        <item>9秒</item>
+        <item>10秒</item>
+        <item>11秒</item>
+        <item>12秒</item>
+        <item>13秒</item>
+        <item>14秒</item>
+        <item>15秒</item>
+    </array>
+
+    <string-array name="agility_level">
+        <item>祝贺您! 您的灵活性评分 %1$d 非常好! 保持良好状态，并切记要使用我们的呼吸训练来提升您的评分。灵活性评分是一项综合指数，包括您的自主神经系统 (ANS) 年龄和每分钟心率。您的 ANS 年龄是%2$d, %3$s。您的心率是%4$d。平均值是每分钟 72 次。</item>
+        <item>您的灵活性评分是 %1$d。灵活性评分是一项综合指数，包括您的自主神经系统 (ANS) 年龄和每分钟心率。您的 ANS 年龄是%2$d， %3$s。您的心率是 %4$d。平均值是每分钟 72 次。使用我们的按节奏呼吸训练来提升您的评分。</item>
+        <item>您的灵活性评分是 %1$d。灵活性评分是一项综合指数，包括您的自主神经系统 (ANS) 年龄和每分钟心率。您的 ANS 年龄是%2$d， %3$s。您的心率是%4$d。平均值是每分钟 72 次。我们强烈建议您定期使用我们的呼吸训练，以提升您的评分。</item>
+    </string-array>
+    <string-array name="agility_level_age">
+        <item>等于您的实际年龄</item>
+        <item>大于您的实际年龄</item>
+        <item>小于您的实际年龄，良好</item>
+    </string-array>
+    <string-array name="ans_level">
+        <item>祝贺您! 您的自主神经系统 (ANS) 年龄等于您的实际年龄。切记要使用我们的呼吸训练使您的 ANS 年龄保持年轻并保持健康！</item>
+        <item>祝贺您! 您的自主神经系统 (ANS) 年龄是 %1$s。 切记要使用我们的呼吸训练使您的 ANS 年龄保持年轻并保持健康！</item>
+        <item>您的自主神经系统 (ANS) 年龄是 %1$d ，%2$s。我们强烈建议您定期使用我们的呼吸训练，以改善您的 ANS 年龄。</item>
+    </string-array>
+    <string-array name="ans_level_age">
+        <item>比您的实际年龄大一岁</item>
+        <item>比您的实际年龄大 %d 岁</item>
+        <item>比您的实际年龄小一岁</item>
+        <item>比您的实际年龄小 %d 岁</item>
+    </string-array>
+
+</resources>

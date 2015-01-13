@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/health_coach_bg_02"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/level_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/button_text_color"
+        android:textSize="33dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/health_coach_arrow_image"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/complete"
+                android:textColor="@color/button_text_color"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/cycle_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/button_text_color"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/hit_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/button_text_color"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/hitrate_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/button_text_color"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/go"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/health_coach_arrow_image" />
+    </LinearLayout>
+
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=" " />
+    
+    <com.fihtdc.smartbracelet.view.AnimatedImageView
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/stars_change" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.fihtdc.smartbracelet.view.AnimatedImageView
+            android:id="@+id/complete_whale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/level_complete_whale" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:scaleType="fitXY"
+            android:src="@drawable/health_coach_bg_03" />
+    </FrameLayout>
+
+
+</LinearLayout>

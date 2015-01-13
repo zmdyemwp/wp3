@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="custom_inhale">
+        <item>3초</item>
+        <item>4초</item>
+        <item>5초</item>
+        <item>6초</item>
+        <item>7초</item>
+        <item>8초</item>
+    </array>
+    <array name="custom_hold">
+        <item>1초</item>
+        <item>2초</item>
+        <item>3초</item>
+        <item>4초</item>
+        <item>5초</item>
+    </array>
+    <array name="custom_exhale">
+        <item>6초</item>
+        <item>7초</item>
+        <item>8초</item>
+        <item>9초</item>
+        <item>10초</item>
+        <item>11초</item>
+        <item>12초</item>
+        <item>13초</item>
+        <item>14초</item>
+        <item>15초</item>
+    </array>
+
+    <string-array name="agility_level">
+        <item>축하합니다! 귀하의 민첩성 점수 %1$d은(는) 환상적입니다! 체력 관리를 계속하고, 반드시 당사의 호흡 코치를 사용하여 점수를 올리십시오. 민첩성 점수는 귀하의 자율 신경계(ANS) 나이와 분당 심박수(BPM)를 포함하는 복합 지수입니다. 귀하의 ANS 나이는%2$d, %3$s입니다. 귀하의 BPM은 %4$d입니다. 평균은 분당 72박동입니다.</item>
+        <item>귀하의 민첩성 점수는 %1$d입니다. 민첩성 점수는 귀하의 자율 신경계(ANS) 나이와 분당 심박수(BPM)를 포함하는 복합 지수입니다. 귀하의 ANS 나이는%2$d, %3$s입니다. 귀하의 BPM은 %4$d입니다. 평균은 분당 72박동입니다. 당사의 호흡 리듬 코치를 사용하여 점수를 높이십시오.</item>
+        <item>귀하의 민첩성 점수는 %1$d입니다. 민첩성 점수는 귀하의 자율 신경계(ANS) 나이와 분당 심박수(BPM)를 포함하는 복합 지수입니다. 귀하의 ANS 나이는 %2$d, %3$s입니다. 귀하의 BPM은 %4$d입니다. 평균은 분당 72박동입니다. 당사의 호흡 코치를 정기적으로 사용하여 귀하의 점수를 개선할 것을 적극 추천합니다.您的活力分數是 %1$d。</item>
+    </string-array>
+    <string-array name="agility_level_age">
+        <item>실제 나이와 같음</item>
+        <item>실제 나이보다 더 많음</item>
+        <item>실제 나이보다 더 적어서 좋음</item>
+    </string-array>
+    <string-array name="ans_level">
+        <item>축하합니다! 귀하의 자율 신경계(ANS) 나이는 귀하의 실제 나이와 동일합니다. 귀하의 ANS 나이를 젊게 유지하고 건강을 유지하려면 당사의 호흡 코치를 사용하십시오!</item>
+        <item>축하합니다! 귀하의 자율 신경계(ANS) 나이는%1$s입니다. 귀하의 ANS 나이를 젊게 유지하고 건강을 유지하려면 당사의 호흡 코치를 사용하십시오!</item>
+        <item>귀하의 자율 신경계(ANS) 나이%1$d은(는)  %2$s입니다. 당사의 호흡 코치를 정기적으로 사용하여 귀하의 ANS 나이를 개선할 것을 적극 추천합니다.</item>
+    </string-array>
+    <string-array name="ans_level_age">
+        <item>실제 나이보다 한살 더 많음</item>
+        <item>실제 나이보다 %d세 더 많음</item>
+        <item>실제 나이보다 한살 더 적음</item>
+        <item>실제 나이보다 %d세 더 적음</item>
+    </string-array>
+
+</resources>

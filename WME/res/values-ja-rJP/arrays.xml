@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="custom_inhale">
+        <item>3秒</item>
+        <item>4秒</item>
+        <item>5秒</item>
+        <item>6秒</item>
+        <item>7秒</item>
+        <item>8秒</item>
+    </array>
+    <array name="custom_hold">
+        <item>1秒</item>
+        <item>2秒</item>
+        <item>3秒</item>
+        <item>4秒</item>
+        <item>5秒</item>
+    </array>
+    <array name="custom_exhale">
+        <item>6秒</item>
+        <item>7秒</item>
+        <item>8秒</item>
+        <item>9秒</item>
+        <item>10秒</item>
+        <item>11秒</item>
+        <item>12秒</item>
+        <item>13秒</item>
+        <item>14秒</item>
+        <item>15秒</item>
+    </array>
+
+    <string-array name="agility_level">
+        <item>おめでとうございます！敏捷性スコア%1$d はすばらしいです！これからもこの調子でがんばりましょう。また、呼吸コーチでスコアアップを目指してください。敏捷性スコアは、自律神経系 (ANS) 年齢や 1 分あたりの心拍数 (BPM) を含む複合指標です。あなたの ANS 年齢は%2$d 歳で、%3$s。あなたの心拍数 (BPM） は %4$d です。平均は 1 分あたり 72 拍です。</item>
+        <item>あなたの敏捷性スコアは %1$d です。敏捷性スコアは、自律神経系 (ANS) 年齢や 1 分あたりの心拍数 (BPM) を含む複合指標です。あなたの ANS 年齢は %2$d 歳で、%3$s。 あなたの心拍数 (BPM） は%4$d です。平均は 1 分あたり 72 拍です。リズミカルな呼吸コーチを利用して、スコアを改善しましょう。</item>
+        <item>あなたの敏捷性スコアは %1$d です。敏捷性スコアは、自律神経系 (ANS) 年齢や 1 分あたりの心拍数 (BPM) を含む複合指標です。あなたの ANS 年齢は %2$d 歳で、%3$s。あなたの心拍数 (BPM） は%4$d です。平均は 1 分あたり 72 拍です。スコアを改善するために、呼吸コーチを定期的に利用することを強くお勧めします。</item>
+    </string-array>
+    <string-array name="agility_level_age">
+        <item>つまり、実際の年齢と同じです</item>
+        <item>つまり、実際の年齢より上です</item>
+        <item>つまり、実際の年齢よりも若く、すばらしいです</item>
+    </string-array>
+    <string-array name="ans_level">
+        <item>おめでとうございます！あなたの自律神経系 (ANS) 年齢は、実際の年齢と同じです。呼吸コーチを利用して、ANS 年齢をこれからも若く健康に保ちましょう！</item>
+        <item>おめでとうございます！あなたの自律神経系 (ANS) 年齢は  %1$s 歳です。 呼吸コーチを利用して、ANS 年齢をこれからも若く健康に保ちましょう！</item>
+        <item>%1$d の自律神経系 (ANS) 年齢は %2$s 歳です。ANS 年齢を改善するために、呼吸コーチを定期的に利用することを強くお勧めします。</item>
+    </string-array>
+    <string-array name="ans_level_age">
+        <item>実際の年齢より 1 歳上</item>
+        <item>実際の年齢よりも %d 歳上</item>
+        <item>実際の年齢よりも 1 歳下</item>
+        <item>実際の年齢よりも %d 歳下</item>
+    </string-array>
+
+</resources>

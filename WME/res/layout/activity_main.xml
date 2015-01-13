@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:splitMotionEvents="false"
+    tools:context=".HomeActivity" >
+
+    <include layout="@layout/action_bar_custom" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@drawable/health_main_bg_01"
+        android:splitMotionEvents="false" >
+
+        <Button
+            android:id="@+id/measure"
+            style="@style/HomeButton"
+            android:layout_above="@+id/coaching"
+            android:drawableLeft="@drawable/ic_measure"
+            android:longClickable="false"
+            android:onClick="onClick"
+            android:text="@string/measure_title" />
+
+        <Button
+            android:id="@+id/coaching"
+            style="@style/HomeButton"
+            android:layout_above="@+id/history"
+            android:drawableLeft="@drawable/ic_coaching"
+            android:longClickable="false"
+            android:onClick="onClick"
+            android:text="@string/coaching_title" />
+
+        <Button
+            android:id="@+id/history"
+            style="@style/HomeButton"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/frame_margin_bottom"
+            android:drawableLeft="@drawable/ic_history"
+            android:longClickable="false"
+            android:onClick="onClick"
+            android:text="@string/history_title" />
+    </RelativeLayout>
+
+</LinearLayout>

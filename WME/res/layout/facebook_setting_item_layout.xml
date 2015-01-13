@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <!-- android:background="@drawable/mango_item_settings_middle" -->
+    <ImageView 
+        android:id="@+id/item_icon"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:src="@android:drawable/ic_lock_power_off"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/setting_icon_margin"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/titleTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textSize="@dimen/setting_text_size_normal"
+             android:textColor="#FFFFFFFF"/>
+
+        <TextView
+            android:id="@+id/summaryTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/setting_text_size_normal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView android:id="@+id/item_forword"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:gravity="right|center_vertical"
+        android:src="@android:drawable/ic_menu_agenda"/>
+    <Switch android:id="@+id/switched"
+        android:layout_marginRight="@dimen/setting_icon_margin"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:gravity="right|center_vertical"
+        android:clickable="false"
+        />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp" >
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_magin_top"
+        android:background="@drawable/rectangular_white_box"
+        android:hint="@string/facebook_message"
+        android:maxLength="140"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:textColor="#FF000000"
+        android:textSize="@dimen/profile_edit_text_size"
+        android:layout_marginBottom="@dimen/layout_magin_top" />
+
+    <include
+        android:id="@+id/share_measure"
+        layout="@layout/facebook_share_measure" />
+
+    <include
+        android:id="@+id/share_coaching"
+        layout="@layout/facebook_share_coaching" />
+
+    <Button
+        android:id="@+id/post"
+        style="@style/PostStyle"
+        android:longClickable="false"
+        android:onClick="onClick"
+        android:text="@string/facebook_button" />
+
+</LinearLayout>

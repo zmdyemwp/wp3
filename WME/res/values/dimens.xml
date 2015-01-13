@@ -1,0 +1,142 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="actionbar_title_size">24dp</dimen>
+
+    <!-- Button size -->
+    <dimen name="app_button_text_size">24dp</dimen>
+    <dimen name="app_button_text_size_small">20dp</dimen>
+    <dimen name="app_button_frame_width">2.5dp</dimen>
+    <dimen name="home_button_text_size">28dp</dimen>
+
+    <!-- Label size -->
+    <dimen name="label_text_small">33dp</dimen>
+    <dimen name="label_text_normal">50dp</dimen>
+    <dimen name="slidingmenu_offset">100dp</dimen>
+    <dimen name="shadow_width">25dp</dimen>
+    <dimen name="frame_margin_bottom">60dp</dimen>
+    <dimen name="measure_layout_width">250dp</dimen>
+    <dimen name="measure_layout_minHeight">60dp</dimen>
+    <dimen name="measure_layout_magin">20dp</dimen>
+    <dimen name="measure_prepare_text_padding_bottom">50dp</dimen>
+    <dimen name="coaching_prepare_text_padding_bottom">5dp</dimen>
+    <dimen name="prepare_text_width">240dp</dimen>
+    <dimen name="measure_wave_above_margin_top">180dp</dimen>
+    <dimen name="measure_wave_dark_margin_top">208dp</dimen>
+
+    <!-- TimeAxis dimen values -->
+    <dimen name="timeaxis_object_gap">52dp</dimen>
+    <dimen name="timeaxis_object_width">25dp</dimen>
+    <dimen name="timeaxis_right_margin">10dp</dimen>
+    <dimen name="timeaxis_text_size">22px</dimen>
+    <dimen name="history_frame_margin_horizontal">20dp</dimen>
+    <dimen name="history_time_text_size">54px</dimen>
+    <dimen name="history_label_text_size">40px</dimen>
+    <dimen name="history_value_text_size">100px</dimen>
+    <dimen name="circle_light_label_text_size">30px</dimen>
+    <dimen name="circle_light_value_text_size">90px</dimen>
+    <dimen name="circle_dark_label_text_size">45px</dimen>
+    <dimen name="circle_dark_value_text_size">120px</dimen>
+    <dimen name="facebook_control_bottom">30dp</dimen>
+    <dimen name="facebook_control_top">15dp</dimen>
+    <dimen name="facebook_login_button_top">2dp</dimen>
+    <dimen name="facebook_login_button_height">36dp</dimen>
+    <dimen name="facebook_login_button_width">174dp</dimen>
+    <dimen name="facebook_layout_margin_top">16dp</dimen>
+    <dimen name="facebook_layout_control_item_top">26dp</dimen>
+    <dimen name="facebook_layout_control_item_left">10dp</dimen>
+    <dimen name="facebook_layout_control_item_right">15dp</dimen>
+    <dimen name="state_view_text_size">35px</dimen>
+    <dimen name="state_view_small_text_size">33px</dimen>
+
+    <!-- Welcome layout -->
+    <dimen name="welcome_magin_top">55dp</dimen>
+    <dimen name="welcome_magin_left">17dp</dimen>
+    <dimen name="welcome_magin_bottom">21dp</dimen>
+    <dimen name="welcome_text_size">23dp</dimen>
+
+    <!-- Profile layout -->
+    <dimen name="profile_magin_top">20dp</dimen>
+    <dimen name="profile_magin_left">26dp</dimen>
+    <dimen name="profile_text_size">20dp</dimen>
+    <dimen name="profile_edit_height">37dp</dimen>
+    <dimen name="birthday_wheel_year_width">120dp</dimen>
+    <dimen name="birthday_wheel_month_width">80dp</dimen>
+
+    <!-- Configuration layout -->
+    <dimen name="configuration_text_size">20dp</dimen>
+    <dimen name="configuration_heihgt">50dp</dimen>
+
+    <!-- prepare layout -->
+    <dimen name="prepare_second_text_size">145dp</dimen>
+
+    <!-- history layout -->
+    <dimen name="history_large_text_size">40dp</dimen>
+    <dimen name="history_small_text_size">24dp</dimen>
+    <dimen name="history_margin_top">250dp</dimen>
+    <dimen name="setting_text_size_normal">24dp</dimen>
+    <dimen name="setting_text_size_small">13dp</dimen>
+
+    <!-- Measure layout -->
+    <dimen name="measure_number_text_size">54dp</dimen>
+    <dimen name="measure_label_text_size">24dp</dimen>
+    <dimen name="fish_margin_right">10dp</dimen>
+    <dimen name="fish_offset_y">40dp</dimen>
+    <dimen name="fish_jump_height">200dp</dimen>
+    <dimen name="wave_translate_height">175dp</dimen>
+    <dimen name="heatrate_height">105dp</dimen>
+    <!-- Sugguestion layout -->
+    <dimen name="suggustion_title_text_size">24dp</dimen>
+    <dimen name="suggustion_score_text_size">46dp</dimen>
+    <dimen name="suggustion_content_text_size">24dp</dimen>
+    <dimen name="switch_button_text_size">27dp</dimen>
+    <!-- coaching history layout -->
+    <dimen name="bg_view_margin_bottom_value">20dp</dimen>
+    <dimen name="black_view_height">5dp</dimen>
+    <dimen name="box_padding_value">15dp</dimen>
+    <dimen name="time_box_padding_top">5dp</dimen>
+    <dimen name="cycle_padding_top">20dp</dimen>
+    <dimen name="day_time_textsize">66px</dimen>
+    <dimen name="content_text_size">36px</dimen>
+    <dimen name="day_title_text_size">34px</dimen>
+    <dimen name="status_margin_top">5dp</dimen>
+    <dimen name="axis_view_height">95dp</dimen>
+    
+    <!-- level chooser layout -->
+    <dimen name="level_name_padding_right">30dp</dimen>
+    <dimen name="level_name_padding_left">5dp</dimen>
+    <dimen name="item_padding_value">6dp</dimen>
+    <dimen name="level_name_textsize">85px</dimen>
+    <dimen name="level_text_size">40px</dimen>
+
+    <!-- Coaching test page -->
+    <dimen name="coaching_title_text_size">40px</dimen>
+    <dimen name="coaching_index_text_size">100px</dimen>
+    <dimen name="whale_translate_height">160dp</dimen>
+
+    <!-- custom level page -->
+    <dimen name="custom_level_name_text_size">90px</dimen>
+    <dimen name="indicator_text_size">60px</dimen>
+    <dimen name="index_title_text_size">34px</dimen>
+    <dimen name="index_text_size">40px</dimen>
+    <dimen name="start_button_text_size">90px</dimen>
+
+    <!-- Coaching prepare -->
+    <dimen name="coaching_dark_wave_height">224dp</dimen>
+    <dimen name="coaching_fish_margin_bottom">30dp</dimen>
+    <dimen name="coaching_text_margin_top">6dp</dimen>
+
+    <!-- GestureDetector -->
+    <dimen name="gesture_detector">100px</dimen>
+
+    <!-- share facebook -->
+    <dimen name="layout_magin_top">15dp</dimen>
+    <dimen name="facabook_share_coaching_height">225dp</dimen>
+    <dimen name="facabook_share_fish_width">227dp</dimen>
+    <dimen name="facabook_share_fish_height">243dp</dimen>
+    <dimen name="facabook_share_statusview_height">235dp</dimen>
+    <dimen name="facabook_share_coaching_layouttop">235dp</dimen>
+
+</resources>

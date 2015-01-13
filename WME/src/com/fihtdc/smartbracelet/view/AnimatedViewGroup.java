@@ -1,0 +1,100 @@
+/*
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.fihtdc.smartbracelet.view;
+
+import android.content.Context;
+import android.graphics.drawable.AnimationDrawable;
+import android.graphics.drawable.Drawable;
+import android.util.AttributeSet;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RemoteViews.RemoteView;
+
+@RemoteView
+public class AnimatedViewGroup extends LinearLayout {
+    AnimationDrawable mAnim;
+    boolean mAttached;
+
+    public AnimatedViewGroup(Context context) {
+        super(context);
+    }
+
+    public AnimatedViewGroup(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    private void updateAnim() {
+        Drawable drawable = this.getBackground();
+        if (mAttached && mAnim != null) {
+            mAnim.stop();
+        }
+        if (drawable instanceof AnimationDrawable) {
+            mAnim = (AnimationDrawable)drawable;
+            if (isShown()) {
+                mAnim.start();
+            }
+        } else {
+            mAnim = null;
+        }
+    }
+
+    @Override
+    public void setBackground(Drawable background) {
+        // TODO Auto-generated method stub
+        super.setBackground(background);
+        updateAnim();
+    }
+
+    @Override
+    public void onAttachedToWindow() {
+        super.onAttachedToWindow();
+        mAttached = true;
+        /// M: FOR ALPS00282136. To show GPS animation. @{
+        if (mAnim != null) {
+            if (!mAnim.isRunning() && isShown()) {
+                mAnim.start();
+            } else {
+                mAnim.stop();
+            }
+        }
+        /// M: FOR ALPS00282136. @}
+    }
+
+    @Override
+    public void onDetachedFromWindow() {
+        super.onDetachedFromWindow();
+        if (mAnim != null) {
+            mAnim.stop();
+        }
+        mAttached = false;
+    }
+
+    @Override
+    protected void onVisibilityChanged(View changedView, int vis) {
+        super.onVisibilityChanged(changedView, vis);
+        if (mAnim != null) {
+            /// M: FOR ALPS00282136. To show GPS animation. 
+            if (!mAnim.isRunning() && isShown()) {
+                mAnim.start();
+            } else {
+                mAnim.stop();
+            }
+        }
+    }
+}
+

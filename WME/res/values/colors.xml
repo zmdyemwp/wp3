@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="actionbar_background">#FF067782</drawable>
+    <color name="actionbar_color">#FF067782</color>
+    <drawable name="window_background">#3bbbc3</drawable>
+    <color name="window_color">#3bbbc3</color>
+    <drawable name="history_window_background">#FF8BD5E2</drawable>
+    
+    <drawable name="switch_button_selected">#FF067782</drawable>
+    <drawable name="switch_button_selected_pressed">#FF05666F</drawable>
+    <drawable name="switch_button_normal">#FF84BFCA</drawable>
+    <drawable name="switch_button_normal_pressed">#FF6B979F</drawable>
+    
+    <color name="passive_color">#FFBE9D3D</color>
+    <color name="excitable_color">#FFE73D3B</color>
+    <color name="pessimistic_color">#FF00A7D9</color>
+    <color name="anxious_color">#FFC58CBA</color>
+    <color name="balance_color">#FFFFFFFF</color>
+    <color name="translate_while_color">#80FFFFFF</color>
+    <color name="score_zero_color">#FF086266</color>
+    <color name="score_one_color">#FF1A8287</color>
+    <color name="score_two_color">#FF70C0C8</color>
+    <color name="score_three_color">#FFC0E6EC</color>
+    
+    <color name="measure_heartview_bk_color">#FF1664A7</color>
+    <color name="measure_label_color">#FF8BB2D3</color>
+    <color name="measure_status_text_color">#FF6294B8</color>
+    <color name="orange_color">#FFF49A22</color>
+    <color name="orange_disable_color">#FFB09471</color>
+    <drawable name="mask_color">#47000000</drawable>
+    
+    <color name="button_normal_color">#FFFFFFFF</color>
+    <color name="button_normal_transparent_color">#19FFFFFF</color>
+    <color name="button_pressed_color">#FF829898</color>
+    <color name="button_pressed_transparent_color">#14829898</color>
+    <drawable name="coaching_history_day_item_bg">#FF29AAAF</drawable>
+</resources>

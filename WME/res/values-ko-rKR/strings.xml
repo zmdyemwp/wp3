@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2010-present Facebook.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">WMe</string>
+
+    <!-- facebook begin -->
+    <string name="applicationId">1404233603125231</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">확인</string>
+    <string name="com_facebook_loginview_log_out_button">로그아웃</string>
+    <string name="com_facebook_loginview_log_in_button">로그인</string>
+    <string name="com_facebook_loginview_logged_in_as">에 : %1$s 로그인</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">페이스 북을 사용하여 로그인</string>
+    <string name="com_facebook_loginview_log_out_action">로그아웃</string>
+    <string name="com_facebook_loginview_log_out_message">로그아웃하시겠습니까?</string>
+    <string name="com_facebook_loginview_log_in_prompt_message">먼저 로그인하시기 바랍니다.</string>
+    <string name="com_facebook_loginview_cancel_action">취소</string>
+    <string name="com_facebook_logo_content_description">페이스 북의 로고</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">로그인&#8230;</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">에 로그인</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">로그인 안 됨</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d 여기 있었다</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d 여기 있었다</string>
+    <string name="com_facebook_picker_done_button_text">완료</string>
+    <string name="com_facebook_choose_friends">친구를 선택</string>
+    <string name="com_facebook_nearby">인근</string>
+    <string name="com_facebook_loading">로드\u2026</string>
+    <string name="network_unavaliable">네트워크를 사용할 수</string>
+    <string name="com_facebook_requesterror_relogin">Facebook 계정을 다시 한번이 응용 프로그램에 로그인하십시오.</string>
+    <string name="com_facebook_requesterror_password_changed">페이스 북의 비밀번호가 변경되었습니다. Facebook 계정을 다시 한번이 응용 프로그램에 로그인하십시오.</string>
+    <string name="com_facebook_requesterror_reconnect">Facebook 계정을 다시 한번이 응용 프로그램에 로그인하십시오.</string>
+    <string name="com_facebook_requesterror_permissions">이 응용 프로그램은이 작업을 수행 할 수있는 권한이 없습니다. 권한을 변경하려면 다시 응용 프로그램에 로그인합니다.</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest 오류</string>
+    <string name="com_facebook_internet_permission_error_message">WebView를 로그인 INTERNET 권한이 필요합니다.</string>
+    <string name="com_facebook_requesterror_web_login">Facebook 계정이 잠겨 있습니다. 계속 www.facebook.com에 로그인하십시오.</string>
+    <string name="facebook_features">Facebook 기능</string>
+    <string name="facebook_notification">알림</string>
+    <string name="facebook_checkin">W/Me로 체크인</string>
+    <string name="facebook_checkin_me_here">여기에 있습니다!</string>
+    <string name="facebook_checkintext">체크인 텍스트</string>
+    <string name="facebook_checkin_control_prompt">제어 스위치의 체크를여십시오.</string>
+    <string name="setting_network_open">내 위치에 대한 오픈 액세스하십시오.</string>
+    <string name="facebook_share_message_prefix">" 이(가) W/Me @ "</string>
+    <string name="facebook_share_message_success">성공적으로 공유!</string>
+    <string name="facebook_share_message_fail">공유 실패!</string>
+    <!-- facebook end -->
+
+    <string name="configuration_title">구성</string>
+    <string name="welcome_title">W/Me 사용을 환영합니다.</string>
+    <string name="home_title">W&#047;Me</string>
+    <string name="profile_title">프로필</string>
+    <string name="settings_title">설정</string>
+    <string name="facebook_title">FACEBOOK 설정</string>
+    <string name="aboutus_title">회사 소개</string>
+    <string name="faq_title">FAQ</string>
+    <string name="measure_title">측정</string>
+    <string name="coaching_title">코칭</string>
+    <string name="history_title">이력</string>
+    <string name="master_label">"안녕하세요  %s, "</string>
+    <string name="start_label">시작하기</string>
+    <string name="guest_label">게스트</string>
+    <string name="tutorial_title">자습서</string>
+    <string name="prompt_label">센서를 길게 누르십시오\u2026</string>
+    <string name="prompt_label_better">수신 감도를 높이려면 길게 누르십시오\u2026</string>
+    <string name="calm_label">편하게 있으십시오\u2026</string>
+    <string name="measure_start_label">측정이 시작되려고 합니다\u2026</string>
+    <string name="second_label">초.</string>
+    <string name="time_label">시간</string>
+    <string name="bpm_label">BPM</string>
+    <string name="time_format">"<xliff:g id="minute">%s</xliff:g>m<xliff:g id="second">%s</xliff:g>s"</string>
+    <string name="measuring_label">측정 진행 중\u2026</string>
+    <string name="guest_prompt_label">안녕하세요. \r\n귀하에 대한 추가 정보를 알려 주십시오.</string>
+    <string name="guest_start_label">시작</string>
+    <string name="passive_area_flag">수동적</string>
+    <string name="excitable_area_flag">흥분을 잘 함</string>
+    <string name="pessimistic_area_flag">비관적임</string>
+    <string name="anxious_area_flag">불안해함</string>
+    <string name="balanced_area_flag">안정적임</string>
+    <string name="timeout_title">시간 초과</string>
+    <string name="timeout_wait_long">너무 오래 기다리셨습니다. 다시 시작하십시오!</string>
+    <string name="timeout_bluetooth">블루투스 시간 초과, 다시 시도하십시오!</string>
+    <string name="signal_unstable">신호가 불안정합니다</string>
+    <string name="hold_retrieve">검색하려면 길게 누르십시오\u2026</string>
+    <string name="measure_continue">다음 시간 후에 계속됩니다: %d 초.</string>
+
+    <!-- Robin add strings begin -->
+    <string name="start">"시작"</string>
+    <string name="custom_level_txt">"사용자 지정!"</string>
+    <string name="pair_wme">W/Me 연결</string>
+    <string name="gmail">"Gmail"</string>
+    <string name="alarm">"알람"</string>
+    <string name="incoming_call">"수신 전화"</string>
+    <string name="find_my_phone">"내 휴대폰 찾기"</string>
+    <string name="reset">"모든 설정 초기화"</string>
+    <string name="facebook">"Facebook"</string>
+    <string name="reset_dialog_txt">모든 설정이 기본값으로 초기화되며 W/Me 앱이 재시작되어 환영 시나리오가 실행됩니다. 확인을 눌러 계속 진행하십시오.</string>
+    <string name="inhale">"들이쉬기"</string>
+    <string name="exhale">"내쉬기"</string>
+    <string name="hold">"일시중지"</string>
+    <string name="upper_unit_sec">"초"</string>
+    <string name="cycles">"사이클"</string>
+    <string name="times">"시대"</string>
+    <string name="level_m">"레벨 M"</string>
+    <string name="level">"레벨"</string>
+    <string name="sec">"초"</string>
+    <string name="upper_cycle">"사이클"</string>
+    <string name="hit">"히트"</string>
+    <string name="coaching_label">코칭 진행 중\u2026</string>
+    <string name="complete">"완료!"</string>
+    <string name="summary_title">"SUMMARY"</string>
+    <string name="time">"시간"</string>
+    <string name="day">"요일"</string>
+    <string name="hit_rate">히트율</string>
+    <string name="upper_inhale">"들이쉬기"</string>
+    <string name="upper_hold">"일시중지"</string>
+    <string name="upper_exhale">"내쉬기"</string>
+    <!-- Robin add strings end -->
+
+
+    <!-- Danny add for chooser Dialog begin -->
+    <string name="profile_name_hint">이름:</string>
+    <string name="profile_gender_male">남성</string>
+    <string name="profile_gender_female">여성</string>
+    <string name="profile_unit_cm">cm</string>
+    <string name="profile_unit_in">인치</string>
+    <string name="profile_unit_ft">피트</string>
+    <string name="profile_unit_kg">kg</string>
+    <string name="profile_unit_lb">LB</string>
+    <string name="profile_name_cannot_be_null">프로필 이름이 비어 있기 때문에 프로필 정보가 저장되지 않습니다.</string>
+    <string name="profile_gender_cannot_be_null">성이 비어 있기 때문에 프로필 정보가 저장되지 않습니다.</string>
+    <string name="profile_height_cannot_be_null">높이가 비어 있기 때문에 프로필 정보가 저장되지 않습니다.</string>
+    <string name="profile_weight_cannot_be_null">무게가 비어 있기 때문에 프로필 정보가 저장되지 않습니다.</string>
+    <string name="profile_birthday_cannot_be_null">생일 비어 있기 때문에 프로필 정보가 저장되지 않습니다.</string>
+    <string name="chooser_dialog_done">"완료"</string>
+    <string name="chooser_height_dialog_title">"신장 입력"</string>
+    <string name="chooser_weight_dialog_title">"체중 입력"</string>
+    <string name="chooser_birthday_dialog_title">"생일 입력"</string>
+    <string name="profile_edit_prompt">아이콘을 눌러 변경하십시오. 유효한 입력을 완료하면 아이콘이 깜박임을 중지합니다.</string>
+    <string name="profile_not_complete_prompt">계속하기 전에 프로필 설정을 완료하십시오.</string>
+    <string name="profile_complete_prompt">프로필이 설정되었습니다. 계속 진행하여 W/Me 장치를 연결하거나 프로필 편집을 계속하십시오.</string>
+    <!-- Danny add for chooser Dialog end -->
+
+    <string name="suggestion_title">암시</string>
+    <string name="agility_label">민첩성</string>
+    <string name="m_state_label">정신 상태</string>
+    <string name="day_label">요일</string>
+    <string name="measure_history_title">측정 이력</string>
+    <string name="coach_history_title">코칭 이력</string>
+    <string name="ans_age_label">ANS 나이</string>
+    <string name="delete_title">삭제</string>
+    <string name="delete_content">"삭제하시겠습니까 <xliff:g id="date">%s</xliff:g> @ <xliff:g id="time">%s</xliff:g>?"</string>
+    <string name="begin_setup">설정 시작</string>
+    <string name="setup_content">W/Me 사용을 시작하려면, 우선 프로필을 설정한 후 W/Me 장치에 연결하십시오. 아래 버튼을 눌러 시작하십시오.</string>
+    <string name="welcome_label">에 오신 것을 환영합니다</string>
+    <string name="aboutus_version_title">앱 버전: %s</string>
+    <string name="aboutus_wme_version_title">손목 밴드 버전:  %s</string>
+    <string name="aboutus_description">W/Me는 Phyode에 의해서 제조되며, 당사\r\n최초의 상호작용성이 우수한 장치이며\r\n호흡을 시각적으로 표시할 수 있습니다.</string>
+
+    <!-- Paring string -->
+    <string name="pair_title">W/Me 연결</string>
+    <string name="forget_device_label">이 장치 삭제</string>
+    <string name="scan_device_label">W/Me 장치 스캔</string>
+    <string name="no_pair_device_hit">연결된 장치 없음</string>
+    <string name="device_name_hit">W&#047;Me  - </string>
+    <string name="use_me_title">W/Me 사용을 시작하십시오!</string>
+    <string name="device_connect">W/Me 연결됨</string>
+    <string name="device_not_connect">W/Me 연결 안 됨</string>
+    <string name="pair_select_title">W/Me 장치 선택</string>
+    <string name="pair_warning">장시간 동안 찾을 수 없을 경우 재스캔 버튼을 누르고 손목 밴드 버튼을 눌러 BT 모드로 전환하십시오.</string>
+    <string name="button_pair_label">W/Me 연결</string>
+    <string name="button_edit_profile_label">프로필 편집</string>
+    <string name="name_toast">눌러서 W/Me 이름 변경</string>
+    <string name="open_bluetooth_toast">열 어 달 라 블 루 투 스 기능 을 갖 췄 다</string>
+    <string name="close_wifi_toast">블루투스 연결이 Wi-Fi에 의해 불안정이 발생할 수 있습니다, ​​당신이 그 다음 블루투스 연결을 시도 해제하는 것이 좋습니다.</string>
+    <string name="close_wifi">가까운</string>
+    <string name="turnoff_wifi_notification">Wi-Fi 접속을 해제</string>
+    <!-- FAQ String -->
+    <string name="faq_question1">1. W/Me란 무엇입니까?</string>
+    <string name="faq_question2">2. 민첩성 점수란 무엇입니까?</string>
+    <string name="faq_question3">3. 왜 W/Me를 매일 사용해야 합니까?</string>
+    <string name="faq_question4">4. 왜 측정하는 데 3분이 걸립니까?</string>
+    <string name="faq_question5">5. 호흡 연습을 어떻게 시작합니까?</string>
+    <string name="faq_question6">6. 고른 호흡을 하기 위한 가장 효과적인 방법은 무엇입니까?</string>
+    <string name="faq_question7">7. 고른 호흡의 중요성은 무엇이며 어떤 장점이 있습니까?</string>
+    <string name="faq_question8">8. HRV란 무엇입니까?</string>
+    <string name="faq_question9">9. 자율 신경계(ANS)란 무엇입니까?</string>
+    <string name="faq_question1_answer">W/Me는 귀하의 신체적 및 정신적 상태를 지속적으로 측정할 수 있습니다.\r\nW/Me는 귀하의 심박수 변이도(HRV)를 디지털 방식으로 측정합니다. 당사의 알고리즘을 사용하여 귀하의 자율 신경계(ANS) 민첩성을 추정할 수 있습니다.\r\n\r\nW/Me는 다음을 할 수 있습니다:\r\n정서적 감수성 측정\r\nANS 민첩성 측정\r\n고른 호흡 연습 코칭\r\n휴대폰 찾기\r\nFacebook 로그인\r\n원격 카메라 작동\r\n이메일 알림\r\n장치 범위 이탈 알림</string>
+    <string name="faq_question2_answer">민첩성 접수는 심박수 변이도와 신체 안정성 사이의 상관관계를 나타냅니다. 점수가 높을수록 스트레스에 대한 회복력이 더 높습니다. 점수가 낮을수록 면역계통이 더 약하고 스트레스에 대한 민감성이 높을 수 있습니다.</string>
+    <string name="faq_question3_answer">일반적 건강 검진과 마찬가지로 W/Me를 정기적으로 사용하면 개인적으로 예방 관리가 됩니다. 건강 상태를 정기적으로 유지하고 파악하면 삶의 질을 유지하고 건강 관리 비용을 절감하는 데 도움이 됩니다.\n신체 상태는 지속적으로 변화하기 때문에 신체 상태를 면밀하게 관찰하면 라이프스타일에 대한 합리적 결정을 내릴 수 있습니다.\n\n의료 업계는 HRV를 개인의 활력에 대한 기본적 측정값으로 사용합니다. 이것은 개인의 신체적 및 정신적 상태를 측정하기 위한 지표로 사용됩니다. HRV는 스트레스에 대한 우리의 적응력을 나타냅니다. 또한 HRV는 생물학적 나이 측정에 사용되는 지수입니다.</string>
+    <string name="faq_question4_answer">주파수 스펙트럼을 정확하게 나타내기 위해서 W/Me는 생명 스펙트럼 분석기를 사용하여 약 3분 동안 데이터를 수집합니다. 분당 심박수(BPM)와 같은 간단한 측정보다 훨씬 더 복잡합니다.</string>
+    <string name="faq_question5_answer">고른 호흡의 네 단계\r\n\r\n1. 위치:\n\n편안한 환경을 찾아 앱을 실행하십시오.\r\n\r\n2. 자세:\r\n\r\n자세는 고른 호흡을 극대화하기 위한 기초입니다. 앉거나 서서 연습할 수 있습니다. 가장 중요한 것은 척추를 곧추세우고 고개를 들어올리십시오.\r\n\r\n3. 이완:\r\n\r\n머리부터 시작하여 몸의 긴장을 풀고 눈썹, 목, 어깨, 팔, 손, 다리에서 발끝에 이르는 모든 근육의 긴장을 푸십시오.\r\n\r\n체내를 드나드는 공기의 흐름에 집중하십시오.\r\n\r\n코칭 앱을 참조하여 들숨 간격과 날숨 간격을 조절하십시오.\r\n\r\n익숙해지면 신체가 이완되기 시작하고 신체의 압박감이 해소되기 시작됩니다.\r\n\r\n4. 코칭\n\n코칭 앱의 리듬을 따르십시오. 천천히 호흡하십시오. LSA는 당사의 지도에 따라 호흡 사이클을 완료했는지 감지할 수 있습니다. 반드시 복부를 사용하십시오! 몸에서 나오는 공기에 집중하십시오.</string>
+    <string name="faq_question6_answer">복식 호흡은 스트레스를 줄이고 신체를 조화로운 상태로 만들기 위한 이완 반응을 자극하기 위한 효과적인 방법입니다. 복식 호흡 방법을 정기적으로 연습할 경우 일일 에너지 레벨이 높아질 수 있기 때문에 당사의 앱으로 복식 호흡을 연습하십시오. 복식 호흡은 복부에서 숨을 들이쉬는 것처럼 호흡하여 이루어집니다. 복부 근육을 팽창시켜 숨을 들이쉬십시오. 복부 근육을 수축시켜 숨을 내쉬십시오.</string>
+    <string name="faq_question7_answer">자율 신경계는 호흡을 포함하는 신체의 불수의 활동을 조절합니다. 호흡은 의식적으로 조절될 수 있는 소수의 불수의 기능 가운데 하나입니다. 고른 호흡은 체내 동작의 균형을 유지하기 위한 첫 번째 단계입니다. 고른 호흡은 더 조화로운 심박을 가능하게 할 수 있습니다.</string>
+    <string name="faq_question8_answer">심박수 변이도(HRV)는 심박 사이의 시간 간격의 변화라는 생리학적 현상이며, 심박간 간격의 변화로 측정됩니다. 다년 간의 의학적 연구와 복잡한 알고리즘에 기초하여 많은 정보를 심박수 변이도에서 추출할 수 있습니다. W/Me는 신체적 및 감정적 상태를 알려 줍니다.</string>
+    <string name="faq_question9_answer">자율 신경계(ANS)는 심박수, 혈압, 체온, 호흡 및 위장관 운동성과 같은 불수의 신체 활동의 대다수를 조절합니다. ANS는 뇌의 연수라는 부위에 있습니다. ANS의 기능을 유지하는 것은 예방 약물의 일차적 문제입니다. ANS는 일반적으로 교감신경계와 부교감신경계로 나누어집니다.</string>
+
+    <!-- Suggestion String -->
+    <string name="suggestion_ans_end">\r\n귀하의 자율 신경계(ANS) 나이는 귀하의 심박 변이도(HRV)에 기초해 있습니다. 귀하의 ANS 나이는 HRV를 이용하여 당사 데이터베이스에 있는 연령 집단의 평균 HRV와 대응시켜 결정됩니다. 이 연령 그룹이 귀하의 ANS 나이입니다. 동일한 평균 HRV를 갖는 것은 기본적으로 다른 사람들의 연령 그룹입니다. 불안감, 고혈압, 소화불량, 과로, 외부 압박, 질병, 우울증 등으로 인해 귀하의 ANS 나이는 실제 나이보다 많을 수 있습니다.</string>
+    <string name="suggestion_bpm">심박수는 시간 단위당 심장박동수이며 일반적으로 분당 박동수(BPM)로 표시되며 심장과 폐의 전체적 상태를 반영합니다. 성인의 정상적 심박수는 60 ~ 100 BPM이고, 평균 심박수는 72 BPM입니다. 운동선수들의 심박수는 일반적으로 60 BPM 미만입니다.</string>
+
+    <!-- facebook share -->
+    <string name="facebook_button">FACEBOOK에 게시</string>
+    <string name="facebook_message">여기에 메시지를 남기십시오&#8230;</string>
+    <string name="facebook_share_title">공유</string>
+    <string name="wait_message">잠시 기다려주세요\u2026</string>
+
+    <!-- wme welcom -->
+    <string name="health_guide_1">Measurement Center 사용을 환영합니다!</string>
+    <string name="health_guide_2">안녕하세요.\r\nW/Me가 심박수 변화에 기초하여 신체 상태를 측정하고 분석할 수 있도록 편안하고 자연스럽게 호흡하십시오.\r\n측정을 완료하는 데 몇 분만 걸립니다. 화면을 밀어 디스플레이 설명을 보십시오.</string>
+    <string name="health_guide_3">파형이 호흡에 따라 상승하고 하락합니다.</string>
+    <string name="health_guide_4">W/Me 센서가 제공하는 실시간 신체 신호.</string>
+    <string name="health_guide_5">측정을 완료할 때까지 남은 시간이 여기에 표시됩니다.</string>
+    <string name="health_guide_6">심박수가 여기에 실시간으로 표시됩니다.</string>
+    <string name="health_guide_7">측정 상태: 녹색은 안정 신호를 나타내고 적색은 편안한 상태를 유지할 필요가 있음을 나타냅니다.</string>
+    <string name="health_guide_8">Coaching Center 사용을 환영합니다!</string>
+    <string name="health_guide_9">당사는 복식 호흡을 연습할 수 있도록 5개 레벨 및 1개의 프로그래밍 레벨을 고안했습니다.\r\n레벨마다 서로 다른 호흡 리듬에 의해서 정의됩니다. 레벨이 높을수록 호흡 속도를 더 늦출 필요가 있습니다.</string>
+    <string name="health_guide_10">고래 코치 애튜의 리듬을 따라 호흡 속도를 조절할 수 있고 편안하게 느껴지는 레벨을 완료할 수 있습니다.\r\n화면을 밀어 고래 코치 애튜를 만나십시오!</string>
+    <string name="health_guide_11">안녕하세요! 여러분의 코치 애튜입니다!\r\n제 리듬을 따라 호흡 속도를 조절하십시오.</string>
+    <string name="health_guide_12">제가 수면으로 올라오면 숨을 들이마시십시오.\r\n제가 수면에 도달하면 숨을 참으십시오!</string>
+    <string name="health_guide_13">제가 바닥으로 내려가면, 숨을 내쉬십시오. \r\n이제 다음 사이클을 준비하십시오.</string>
+    <string name="health_guide_14">좋습니다! 참 쉽죠?\r\n화면을 밀어 코칭 화면에 대해 더 자세히 알아보십시오.</string>
+    <string name="health_guide_16">연습을 완료할 때까지 남은 사이클이 여기에 표시됩니다.</string>
+    <string name="health_guide_17">사이클 반복 횟수.</string>
+    <string name="health_guide_18">코칭 상태: 녹색은 안정 신호를 나타내고 적색은 편안한 상태를 유지할 필요가 있음을 나타냅니다.</string>
+
+</resources>

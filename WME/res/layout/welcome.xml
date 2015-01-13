@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ActionBarTitle"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@drawable/actionbar_background"
+        android:gravity="center"
+        android:text="@string/welcome_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/welcome_magin_bottom"
+        android:layout_marginLeft="@dimen/welcome_magin_left"
+        android:layout_marginRight="@dimen/welcome_magin_left"
+        android:layout_marginTop="@dimen/welcome_magin_top" >
+
+        <TextView
+            android:id="@+id/how"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setup_content"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/welcome_text_size" />
+
+        <RelativeLayout
+            android:id="@+id/wme_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/how" 
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/welcome_label"
+                android:textColor="#FFFFFFFF"
+                android:textSize="@dimen/welcome_text_size" />
+
+            <ImageView
+                android:id="@+id/wme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/welcome"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/health_setting_logo" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/begin_setup"
+            style="@style/AppButton"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/button_default"
+            android:onClick="onClick"
+            android:text="@string/begin_setup"
+            android:layout_below="@+id/wme_layout" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/health_setting_logo_02" />
+    </RelativeLayout>
+
+</LinearLayout>

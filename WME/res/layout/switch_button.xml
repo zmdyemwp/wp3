@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:gravity="center_horizontal"
+    android:layout_marginTop="11dp"
+    android:layout_marginBottom="11dp">
+
+    <Button 
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:id="@+id/left_switch"
+        android:textColor="@color/switch_button_text_color"
+        android:textSize="@dimen/switch_button_text_size"
+        android:background="@drawable/switch_button_background"/>
+    <Button 
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dip"
+        android:id="@+id/right_switch"
+        android:textColor="@color/switch_button_text_color"
+        android:textSize="@dimen/switch_button_text_size"
+        android:background="@drawable/switch_button_background"/>
+</LinearLayout>

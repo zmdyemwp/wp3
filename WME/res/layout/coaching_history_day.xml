@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coach_history_day"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/box_padding_value"
+        android:layout_marginRight="@dimen/box_padding_value"
+        android:background="@drawable/health_history_bg_frame"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/day_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF43C2CB"
+            android:textSize="@dimen/day_time_textsize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/coaching_history_day_item_bg"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/level"
+                android:textColor="#FF077783"
+                android:textSize="@dimen/day_title_text_size" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/upper_cycle"
+                android:textColor="#FF077783"
+                android:textSize="@dimen/day_title_text_size" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/hit"
+                android:textColor="#FF077783"
+                android:textSize="@dimen/day_title_text_size" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/hit_rate"
+                android:textColor="#FF077783"
+                android:textSize="@dimen/day_title_text_size" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/level1_layout"
+            layout="@layout/coaching_day_item" />
+
+        <include
+            android:id="@+id/level2_layout"
+            layout="@layout/coaching_day_item" />
+
+        <include
+            android:id="@+id/level3_layout"
+            layout="@layout/coaching_day_item" />
+
+        <include
+            android:id="@+id/level4_layout"
+            layout="@layout/coaching_day_item" />
+
+        <include
+            android:id="@+id/level5_layout"
+            layout="@layout/coaching_day_item" />
+
+        <include
+            android:id="@+id/levelm_layout"
+            layout="@layout/coaching_day_item" />
+    </LinearLayout>
+
+    <com.fihtdc.smartbracelet.view.DateAxisView
+        android:id="@+id/dayAxisView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+
+</LinearLayout>
