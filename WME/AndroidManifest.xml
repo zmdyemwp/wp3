@@ -235,6 +235,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.fihtdc.smartbracelet.activity.NewPairActivity"
+            android:label="@string/pair_title"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.fihtdc.smartbracelet.activity.PairListActivity"
             android:label="@string/pair_title"
             android:screenOrientation="nosensor"
@@ -270,7 +279,10 @@
                 <action android:name="com.android.deskclock.ALARM_ALERT" />
                 <!--
                 <action android:name="alarm_killed" />
-                <action android:name="cancel_snooze" />                -->
+                <action android:name="cancel_snooze" />
+
+
+                -->
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.PHONE_STATE" />
@@ -280,7 +292,10 @@
             <intent-filter>
                 <action android:name="com.android.email.MESSAGE_LIST_DATASET_CHANGED" />
                 <action android:name="com.fihtdc.action.NEW_MAIL_LED_ON" />
-            </intent-filter>            -->
+            </intent-filter>
+
+
+            -->
             <!-- receive the new gmail action -->
             <intent-filter>
                 <action

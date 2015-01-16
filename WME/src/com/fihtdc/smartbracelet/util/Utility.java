@@ -46,6 +46,7 @@ import android.view.WindowManager;
 
 import com.fihtdc.smartbracelet.R;
 import com.fihtdc.smartbracelet.activity.AlertDialogActivity;
+import com.fihtdc.smartbracelet.activity.NewPairActivity;
 import com.fihtdc.smartbracelet.activity.PairActivity;
 import com.fihtdc.smartbracelet.fragment.AlertDialogFragment;
 import com.fihtdc.smartbracelet.provider.BraceletInfo.Coaching;
@@ -524,7 +525,7 @@ public class Utility {
     }
     
     public static void startPairedForResult(Context context, Fragment fragment){
-        Intent intent = new Intent(context,PairActivity.class);
+        Intent intent = new Intent(context,NewPairActivity.class);
         fragment.startActivityForResult(intent, PairActivity.REQUEST_PAIR_CODE);
     }
     

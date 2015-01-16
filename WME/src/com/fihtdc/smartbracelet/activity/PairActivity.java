@@ -44,7 +44,7 @@ public class PairActivity extends CustomActionBarActivity implements OnEditorAct
     private static final String NAME_TITLE = "WithMe-";
     private BLEService mBluetoothLeService;
     
-    //View 
+    //View
     private TextView mTop;
     private EditText mPaireName;
     private TextView mStatus;
@@ -84,13 +84,13 @@ public class PairActivity extends CustomActionBarActivity implements OnEditorAct
         bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
         
     }
-    
+
     private void initBTAdapter(){
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         Utility.startBTEnable(PairActivity.this, mBluetoothAdapter,
                 REQUEST_OPEN_BLUETOOTH_CODE);
     }
-    
+
     private void initViews(){
         mLeft.setImageResource(R.drawable.ic_menu_back);
         mStatus = (TextView)findViewById(R.id.status);
